@@ -1,1 +1,1 @@
-## Dooray > Mail > 개요
+## Dooray > Mail > Overview
