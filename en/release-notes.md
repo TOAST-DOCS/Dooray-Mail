@@ -1,4 +1,4 @@
-## Dooray > Calendar > 릴리스 노트
+## Dooray > Mail > Release Notes
 
 ### 2018.01.15
 #### 기능 추가
