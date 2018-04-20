@@ -213,13 +213,13 @@ Outlook 메일을 내보내기를 한 후, Dooray! 메일 계정으로 가져오
 - Outlook 에서 '>' 메뉴를 클릭해보면, Dooray! 메일 계정이 추가된 것을 확인할 수 있습니다. 
 
 ![Outlook08](http://static.toastoven.net/prod_dooray_mail/08_mail_more.png)
-<center>[그림]고급 설정</center>   
+<center>[그림]Outlook 계정 추가 확인 </center>   
 
 - Outlook 에서 파일 메뉴 선택 > 열기 및 내보내기 > 가져오기/내보내기 메뉴를 선택합니다.
 - Outlook 에 있는 메일을 내보내기 한 후, Dooray!로 가져오기를 하면 됩니다.
 
 ![Outlook09](http://static.toastoven.net/prod_dooray_mail/09_mail_import_export.png)
-<center>[그림]고급 설정</center>   
+<center>[그림]Outlook 가져오기/내보내기 마법사 </center>   
 
   - 만들 파일 형식 : Outlook 데이터 파일 (.pst)
   - 내보낼 폴더 선택 : 기존에 사용하던 메일 폴더 선택
