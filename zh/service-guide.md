@@ -156,20 +156,23 @@ Dooray! Mail 사용 시, Dooray!에서 제공하는 메일 주소 (도메인.doo
 현재는 dooray.com에서 ‘새로운 조직 만들기’ 단계에서 도메인 입력 란 바로 아래 있는 [자체 도메인 추가] 버튼을 클릭하면 자체 도메인 추가를 위한 화면이 제공됩니다. 자체 도메인 추가는 현재 조직 만들기 단계에서만 할 수 있으므로, 이미 조직을 만든 이후라면 따로 dooray@nhnent.com으로 문의주세요.
 
 #### MX레코드 설정 가이드 
-- 1단계: 메일 주소로 사용할 도메인을 입력합니다.
-   - ‘새로운 조직 만들기’ 단계에서 도메인 입력
-   - 이미 조직을 만든 이후라면 dooray@nhnent.com으로 문의
-- 2단계: 도메인을 구매 / 관리하는 사이트에 접속하여 DNS 설정에서 아래 정보로 MX레코드를 변경합니다.
-   - MX레코드 (메일 서버 주소): aspmx1.dooray.com , 우선순위 : 1 
-- 3단계: Dooray! 에서 메일 발송 시, 수신 측 스팸 정책에 따라 SPF 레코드 등록이 필요할 수도 있으므로 SPF레코드 설정이 필요할 경우 아래 정보로 SPF 레코드를 추가합니다.
-   - SPF레코드 : _spf.dooray.com
+1단계: 메일 주소로 사용할 도메인을 입력합니다.
+- ‘새로운 조직 만들기’ 단계에서 도메인 입력
+- 이미 조직을 만든 이후라면 dooray@nhnent.com으로 문의
+
+2단계: 도메인을 구매 / 관리하는 사이트에 접속하여 DNS 설정에서 아래 정보로 MX레코드를 변경합니다.
+- MX레코드 (메일 서버 주소): aspmx1.dooray.com , 우선순위 : 1 
+
+3단계: Dooray! 에서 메일 발송 시, 수신 측 스팸 정책에 따라 SPF 레코드 등록이 필요할 수도 있으므로 
+SPF레코드 설정이 필요할 경우 아래 정보로 SPF 레코드를 추가합니다.
+- SPF레코드 : _spf.dooray.com
    
-   ### IMAP을 이용한 Outlook 메일 이전 가이드
+### IMAP을 이용한 Outlook 메일 이전 가이드
 Outlook 메일에서 IMAP을 지원하는 Dooray! 메일 계정을 추가하고 나서 
 Outlook 메일을 내보내기를 한 후, Dooray! 메일 계정으로 가져오기를 하면 됩니다. 방법은 아래와 같습니다.   
 
 #### Outlook에서 Dooray! IMAP 설정 추가  
-- Outlook 파일 메뉴를 선택해 계정 정보에서 계정 추가 버튼을 클릭합니다.   
+Outlook 파일 메뉴를 선택해 계정 정보에서 계정 추가 버튼을 클릭합니다.   
 
 ![Outlook01](http://static.toastoven.net/prod_dooray_mail/01_mail_outlook01.png)
 <center>[그림]Outlook 메일 파일 메뉴 선택</center>            
@@ -180,16 +183,16 @@ Outlook 메일을 내보내기를 한 후, Dooray! 메일 계정으로 가져오
 - 수동 설정 또는 추가 서버 유형을 선택합니다. 
 - 서비스 선택 : POP 또는 IMAP 선택합니다. 
 - POP 및 IMAP 계정 설정 창에서 Dooray! 메일의 IMAP 설정 정보를 입력합니다. 
-  - Dooray! 메인 설정 > 메일 > IMAP 설정 안내의 아이디, 비밀번호 정보를 아웃룩 계정 설정에 입력합니다.
-  - 주의 : 아웃룩 IMAP 로그온 정보의 암호는 Dooray! IMAP 설정의 비밀번호를 복사해서 입력해야 합니다. 
-
+- Dooray! 메인 설정 > 메일 > IMAP 설정 안내의 아이디, 비밀번호 정보를 아웃룩 계정 설정에 입력합니다.
+- 주의 : 아웃룩 IMAP 로그온 정보의 암호는 Dooray! IMAP 설정의 비밀번호를 복사해서 입력해야 합니다. 
+	
 ![Outlook03](http://static.toastoven.net/prod_dooray_mail/03_mail_outlook_imap.png)
 <center>[그림]Outlook 메일 계정 설정</center>        
 
 ![Outlook04](http://static.toastoven.net/prod_dooray_mail/04_mail_dooray_imap.png)
 <center>[그림]Dooray! 메일 IMAP 설정 정보 확인</center>        
 
-- 아웃룩 POP 및 IMAP 계정 설정 창 하단에 있는 기타 설정 클릭합니다. 
+아웃룩 POP 및 IMAP 계정 설정 창 하단에 있는 기타 설정 클릭합니다. 
 
 ![Outlook05](http://static.toastoven.net/prod_dooray_mail/05_mail_outlook_imap_etc.png)
 <center>[그림]Outlook 메일 기타 설정</center>       
@@ -201,38 +204,39 @@ Outlook 메일을 내보내기를 한 후, Dooray! 메일 계정으로 가져오
 
 - 고급 탭 클릭해서 받는 메일 서버, 보내는 메일 서버 포트 번호 입력합니다.  
   - IMAP : 993, SMTP : 465
-	 - 암호화된 다음 연결 방식 : SSL
+  - 암호화된 다음 연결 방식 : SSL
 
 ![Outlook07](http://static.toastoven.net/prod_dooray_mail/07_mail_port.png)
 <center>[그림]고급 설정</center>    
 
-- POP 및 IMAP 계정 설정창 우측 상단에 계정 설정 테스트를 클릭하여 테스트 진행합니다. 
-- 받는 메일 서버에 로그온, 테스트 전자 메일 메시지 보내기 : 완료되면 IMAP 설정은 완료된 것입니다.  
+POP 및 IMAP 계정 설정창 우측 상단에 계정 설정 테스트를 클릭하여 테스트 진행합니다. 
+받는 메일 서버에 로그온, 테스트 전자 메일 메시지 보내기를 해서 완료되면 IMAP 설정은 완료된 것입니다.  
 
-#### Outlook(POP3) 메일을 가져오기/내보내기로 Dooray!로 이관 
-- Outlook 에서 '>' 메뉴를 클릭해보면, Dooray! 메일 계정이 추가된 것을 확인할 수 있습니다. 
+#### Outlook(POP3) 메일 내보내기 
+Outlook 에서 '>' 메뉴를 클릭해보면, Dooray! 메일 계정이 추가된 것을 확인할 수 있습니다. 
 
 ![Outlook08](http://static.toastoven.net/prod_dooray_mail/08_mail_more.png)
 <center>[그림]Outlook 계정 추가 확인 </center>   
 
-- Outlook 에서 파일 메뉴 선택 > 열기 및 내보내기 > 가져오기/내보내기 메뉴를 선택합니다.
-- Outlook 에 있는 메일을 내보내기 한 후, Dooray!로 가져오기를 하면 됩니다.
+Outlook 에서 파일 메뉴 선택 > 열기 및 내보내기 > 가져오기/내보내기 메뉴를 선택합니다.
+Outlook 에 있는 메일을 내보내기 한 후, Dooray!로 가져오기를 하면 됩니다.
 
 ![Outlook09](http://static.toastoven.net/prod_dooray_mail/09_mail_import_export.png)
 <center>[그림]Outlook 가져오기/내보내기 마법사 </center>   
 
-  - 만들 파일 형식 : Outlook 데이터 파일 (.pst)
-  - 내보낼 폴더 선택 : 기존에 사용하던 메일 폴더 선택
-  - 내보낸 파일 저장 형식 : backup.pst 로 저장하기
-  - 저장한 .pst 파일을 가져오기를 합니다.
+- 만들 파일 형식 : Outlook 데이터 파일 (.pst)
+- 내보낼 폴더 선택 : 기존에 사용하던 메일 폴더 선택
+- 내보낸 파일 저장 형식 : backup.pst 로 저장하기
 
-- Outlook 에서 파일 메뉴 선택 > 열기 및 내보내기 > 가져오기/내보내기 메뉴를 다시 선택합니다. 
+#### 내보내기한 파일을 Dooray! 메일로 가져오기  
+Outlook 에서 파일 메뉴 선택 > 열기 및 내보내기 > 가져오기/내보내기 메뉴를 다시 선택합니다. 
 
-  - 수행할 작업 선택 : 가져오기 - 다른 프로그램이나 파일
-  - 가져올 파일 형식 선택 : Outlook 데이터 파일(.pst)
-  - 가져올 파일 : 내보내기를 통해 저장해둔 ,pst 파일 선택
-  - 가져올 폴더 선택 : Outlook 데이터 파일
-  - 같은 폴더로 항목 가져오기 : Dooray! 메일 계정 선택
+- 수행할 작업 선택 : 가져오기 - 다른 프로그램이나 파일
+- 가져올 파일 형식 선택 : Outlook 데이터 파일(.pst)
+- 가져올 파일 : 내보내기를 통해 저장해둔 ,pst 파일 선택
+- 가져올 폴더 선택 : Outlook 데이터 파일
+- 같은 폴더로 항목 가져오기 : Dooray! 메일 계정 선택
   
-- 이 과정을 거치면 메일 가져오기가 완료됩니다.
+이 과정을 거치면 메일 가져오기가 완료됩니다.
+
 
