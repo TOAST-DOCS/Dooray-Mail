@@ -168,11 +168,6 @@ Dooray! Mail 사용 시, Dooray!에서 제공하는 메일 주소 (도메인.doo
 Outlook 메일에서 IMAP을 지원하는 Dooray! 메일 계정을 추가하고 나서 
 Outlook 메일을 내보내기를 한 후, Dooray! 메일 계정으로 가져오기를 하면 됩니다. 방법은 아래와 같습니다.   
 
-### IMAP을 이용한 Outlook 메일 이전 가이드 
-
-Outlook 메일에서 IMAP을 지원하는 Dooray! 메일 계정을 추가하고 나서 
-Outlook 메일을 내보내기를 한 후, Dooray! 메일 계정으로 가져오기를 하면 됩니다. 방법은 아래와 같습니다.  
-
 #### Outlook에서 Dooray! IMAP 설정 추가  
 - Outlook 파일 메뉴를 선택해 계정 정보에서 계정 추가 버튼을 클릭합니다.   
 
@@ -214,7 +209,7 @@ Outlook 메일을 내보내기를 한 후, Dooray! 메일 계정으로 가져오
 - POP 및 IMAP 계정 설정창 우측 상단에 계정 설정 테스트를 클릭하여 테스트 진행합니다. 
 - 받는 메일 서버에 로그온, 테스트 전자 메일 메시지 보내기 : 완료되면 IMAP 설정은 완료된 것입니다.  
 
-####Outlook메일을 가져오기/내보내기로 Dooray!로 이관 
+#### Outlook(POP3) 메일을 가져오기/내보내기로 Dooray!로 이관 
 - Outlook 에서 '>' 메뉴를 클릭해보면, Dooray! 메일 계정이 추가된 것을 확인할 수 있습니다. 
 
 ![Outlook08](http://static.toastoven.net/prod_dooray_mail/08_mail_more.png)
