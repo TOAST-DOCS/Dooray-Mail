@@ -159,9 +159,12 @@ Dooray! Mail 사용 시, Dooray!에서 제공하는 메일 주소 (도메인.doo
 1단계: 메일 주소로 사용할 도메인을 입력합니다.
 - ‘새로운 조직 만들기’ 단계에서 도메인 입력
 - 이미 조직을 만든 이후라면 dooray@nhnent.com으로 문의
+
 2단계: 도메인을 구매 / 관리하는 사이트에 접속하여 DNS 설정에서 아래 정보로 MX레코드를 변경합니다.
 - MX레코드 (메일 서버 주소): aspmx1.dooray.com , 우선순위 : 1 
-3단계: Dooray! 에서 메일 발송 시, 수신 측 스팸 정책에 따라 SPF 레코드 등록이 필요할 수도 있으므로 SPF레코드 설정이 필요할 경우 아래 정보로 SPF 레코드를 추가합니다.
+
+3단계: Dooray! 에서 메일 발송 시, 수신 측 스팸 정책에 따라 SPF 레코드 등록이 필요할 수도 있으므로 
+SPF레코드 설정이 필요할 경우 아래 정보로 SPF 레코드를 추가합니다.
 - SPF레코드 : _spf.dooray.com
    
 ### IMAP을 이용한 Outlook 메일 이전 가이드
@@ -189,7 +192,7 @@ Outlook 파일 메뉴를 선택해 계정 정보에서 계정 추가 버튼을 �
 ![Outlook04](http://static.toastoven.net/prod_dooray_mail/04_mail_dooray_imap.png)
 <center>[그림]Dooray! 메일 IMAP 설정 정보 확인</center>        
 
-- 아웃룩 POP 및 IMAP 계정 설정 창 하단에 있는 기타 설정 클릭합니다. 
+아웃룩 POP 및 IMAP 계정 설정 창 하단에 있는 기타 설정 클릭합니다. 
 
 ![Outlook05](http://static.toastoven.net/prod_dooray_mail/05_mail_outlook_imap_etc.png)
 <center>[그림]Outlook 메일 기타 설정</center>       
@@ -206,8 +209,8 @@ Outlook 파일 메뉴를 선택해 계정 정보에서 계정 추가 버튼을 �
 ![Outlook07](http://static.toastoven.net/prod_dooray_mail/07_mail_port.png)
 <center>[그림]고급 설정</center>    
 
-- POP 및 IMAP 계정 설정창 우측 상단에 계정 설정 테스트를 클릭하여 테스트 진행합니다. 
-- 받는 메일 서버에 로그온, 테스트 전자 메일 메시지 보내기 : 완료되면 IMAP 설정은 완료된 것입니다.  
+POP 및 IMAP 계정 설정창 우측 상단에 계정 설정 테스트를 클릭하여 테스트 진행합니다. 
+받는 메일 서버에 로그온, 테스트 전자 메일 메시지 보내기를 해서 완료되면 IMAP 설정은 완료된 것입니다.  
 
 #### Outlook(POP3) 메일 내보내기 
 Outlook 에서 '>' 메뉴를 클릭해보면, Dooray! 메일 계정이 추가된 것을 확인할 수 있습니다. 
