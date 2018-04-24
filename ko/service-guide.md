@@ -176,7 +176,7 @@ Outlook 파일 메뉴를 선택해 계정 정보에서 계정 추가 버튼을 �
 ![Outlook01](http://static.toastoven.net/prod_dooray_mail/01_mail_outlook01.png)
 <center>[그림]Outlook 메일 파일 메뉴 선택</center>            
 
-![Outlook02](http://static.toastoven.net/prod_dooray_mail/02_mail_outlook_addaccout.png)
+![Outlook02](http://static.toastoven.net/prod_dooray_mail/02_mail_outlook_addaccout2.png)
 <center>[그림]Outlook 메일 계정 추가</center>        
 
 - 수동 설정 또는 추가 서버 유형을 선택합니다. 
@@ -185,7 +185,7 @@ Outlook 파일 메뉴를 선택해 계정 정보에서 계정 추가 버튼을 �
 - Dooray! 메인 설정 > 메일 > IMAP 설정 안내의 아이디, 비밀번호 정보를 아웃룩 계정 설정에 입력합니다.
 - 주의: 아웃룩 IMAP 로그온 정보의 암호는 Dooray! IMAP 설정의 비밀번호를 복사해서 입력해야 합니다. 
 	
-![Outlook03](http://static.toastoven.net/prod_dooray_mail/03_mail_outlook_imap.png)
+![Outlook03](http://static.toastoven.net/prod_dooray_mail/03_mail_outlook_imap2.png)
 <center>[그림]Outlook 메일 계정 설정</center>        
 
 ![Outlook04](http://static.toastoven.net/prod_dooray_mail/04_mail_dooray_imap.png)
