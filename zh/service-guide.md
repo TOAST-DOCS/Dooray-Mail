@@ -1,4 +1,4 @@
-## Dooray! > Mail > Service Guide
+## Dooray! > Mail > 서비스 가이드
 ### 메일 보내기 
 #### 개별 발송
 메일을 여러 명에게 동시에 보낼 때 받은 메일에서 개인 1명만 수신인으로 보여지도록 개별 발송할 수 있습니다. 메일 쓰기 창에서 받는 사람 입력란의 우측에 \[개별\] 란을 체크하고 메일을 발송합니다.
@@ -171,6 +171,19 @@ Dooray! Mail 사용 시, Dooray!에서 제공하는 메일 주소 (도메인.doo
 3단계: Dooray! 에서 메일 발송 시, 수신 측 스팸 정책에 따라 SPF 레코드 등록이 필요할 수도 있으므로 
 SPF레코드 설정이 필요할 경우 아래 정보로 SPF 레코드를 추가합니다.
 - SPF레코드: _spf.dooray.com
+
+#### 조직을 만든 후 자체 메일 주소 연동하기
+현재는 dooray.com에서 새로운 조직 만들기 단계에서만 자체 도메인 추가 화면을 제공하고 있어서 이미 조직을 만드신 이후라면, 아래 가이드대로 하신 이후에 dooray@nhnent.com 으로 메일이 필요합니다.
+
+1. 자체 도메인 주소를 전달
+만약 사용 중인 자체 도메인이 있다면, MX를 변경한 이후, 저희 쪽에서 등록하기 전까지 메일을 못받는 경우가 있습니다.
+변경을 원할 때, 자체 도메인 주소를 dooray@nhnent.com 으로 전달하면 메일로 안내 . 그 이후에 아래 가이드대로 MX변경을 진행하면 됩니다.
+
+2. 아래 가이드대로 변경
+도메인을 구매/관리하는 사이트에 접속하여 DNS 설정에서 MX레코드를 변경합니다.
+- MX레코드 (메일 서버 주소) : aspmx1.dooray.com    우선순위 : 1
+Dooray! 에서 메일 발송 시, 수신 측 스팸 정책에 따라 SPF 레코드 등록이 필요할 수 있으므로 SPF 레코드 설정이 필요할 경우 아래 정보로 SPF 레코드를 추가 합니다.
+- SPF 레코드 : _spf.dooray.com
    
 ### IMAP을 이용한 Outlook 메일 이전 가이드
 Outlook에 설정한 기존 메일을 내보내기 한 후, Dooray! 메일 계정으로 메일 가져오기를 합니다.    
@@ -242,3 +255,49 @@ Outlook 에서 파일 메뉴 선택 > 열기 및 내보내기 > 가져오기/내
 - 같은 폴더로 항목 가져오기: Dooray! 메일 계정 선택
   
 이 과정을 거치면 메일 가져오기가 완료됩니다.
+
+### 스마트폰의 기본 메일로 Dooray! 메일을 연동하기
+
+#### 아이폰
+
+1. 먼저 Dooray!의 설정 메뉴에서 [메일 > imap]을 눌러 수신 서버, 발신 서버, 아이디, 비밀번호를 확인하세요.
+![](http://static.toastoven.net/prod_dooray_mail/phone1.png)
+
+2. 그 후 단말기를 들고 아래와 같이 진행해 주세요.
+
+3. 단말기의 설정에서 [계정 및 암호]를 선택합니다.
+
+4. 계정 목록의 하단에 [계정 추가] 버튼을 선택합니다.
+![](http://static.toastoven.net/prod_dooray_mail/phone2.png)
+
+5. 계정 추가에서 [기타]를 선택합니다.
+![](http://static.toastoven.net/prod_dooray_mail/phone3.png)
+
+6. Mail 계정 추가
+![](http://static.toastoven.net/prod_dooray_mail/phone4.png)
+
+7. Dooray!의 설정에서 확인한 아이디 / 비밀번호 / 수신서버 / 발신서버를 차례대로 넣어줍니다.
+(Dooray! 서비스에서 로그인 시에 사용하는 비밀번호가 아닌, Dooray!의 설정에서 확인한 비밀번호를 넣어주셔야 합니다.)
+![](http://static.toastoven.net/prod_dooray_mail/phone5.png)
+
+#### 안드로이드
+
+1. 먼저 Dooray!의 설정 메뉴에서 [메일 > imap]을 눌러 수신 서버, 발신 서버, 아이디, 비밀번호를 확인하세요.
+![](http://static.toastoven.net/prod_dooray_mail/phone6.png)
+
+2. 그 후 단말기를 들고 아래와 같이 진행해 주세요.
+
+3. 단말기의 설정에서 [사용자 및 계정]을 선택합니다.
+
+4. [계정 추가]를 선택합니다.
+![](http://static.toastoven.net/prod_dooray_mail/phone7.png)
+
+5. 개인용(IMAP)을 선택합니다.
+![](http://static.toastoven.net/prod_dooray_mail/phone8.png)
+
+6. 이메일 / 비밀번호 / 수신 서버 / 발신 서버를 차례대로 입력합니다.
+(Dooray! 서비스에서 로그인 시에 사용하는 비밀번호가 아닌, Dooray!의 설정에서 확인한 비밀번호를 넣어주셔야 합니다.)
+![](http://static.toastoven.net/prod_dooray_mail/phone9.png)
+
+안드로이드 단말기는 기기에 따라 설정 방법에 차이가 있을 수 있습니다 .
+
