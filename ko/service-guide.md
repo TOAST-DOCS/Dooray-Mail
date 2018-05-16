@@ -280,7 +280,7 @@ Outlook 에서 파일 메뉴 선택 > 열기 및 내보내기 > 가져오기/내
 (Dooray! 서비스에서 로그인 시에 사용하는 비밀번호가 아닌, Dooray!의 설정에서 확인한 비밀번호를 넣어주셔야 합니다.)
 ![](http://static.toastoven.net/prod_dooray_mail/phone5.png)
 
-# 안드로이드
+#### 안드로이드
 
 1. 먼저 Dooray!의 설정 메뉴에서 [메일 > imap]을 눌러 수신 서버, 발신 서버, 아이디, 비밀번호를 확인하세요.
 ![](http://static.toastoven.net/prod_dooray_mail/phone6.png)
