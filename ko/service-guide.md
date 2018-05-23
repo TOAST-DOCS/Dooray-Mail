@@ -268,7 +268,7 @@ Outlook 에서 파일 메뉴 선택 > 열기 및 내보내기 > 가져오기/내
 5. 개인용(IMAP)을 선택합니다.
 ![](http://static.toastoven.net/prod_dooray_mail/phone8.png)
 
-6. 이메일 / 비밀번호 / 수신 서버 / 발신 서버를 차례대로 입력합니다. Dooray! 서비스에서 로그인 시에 사용하는 비밀번호가 아닌, Dooray!의 설정에서 확인한 비밀번호를 넣어주셔야 합니다. 
+6. 이메일 / 비밀번호 / 수신 서버 / 발신 서버를 차례대로 입력합니다. 
 ![](http://static.toastoven.net/prod_dooray_mail/phone9.png)
 
 안드로이드 단말기는 기기에 따라 설정 방법에 차이가 있을 수 있습니다.
