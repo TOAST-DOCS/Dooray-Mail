@@ -179,11 +179,12 @@ SPF 레코드는 DNS의 TXT 정보 영역에 등록하며 등록 양식은 아�
 -  기존에 등록되어 있는 SPF 레코드가 IP 일 경우
 	- v=spf1 ip4:1.2.3.4 include:_spf.dooray.com ~all
 	- 조회 예시
-	 example.com    text = "v=spf1 ip4:1.2.3.4 include:_spf.dooray.com ~all"
+	example.com    text = "v=spf1 ip4:1.2.3.4 include:_spf.dooray.com ~all"
 -  기존에 등록되어 있는 SPF 레코드가 도메인 형태 일 경우
 	- v=spf1 include:example.spf.com include:_spf.dooray.com ~all
-	- 조회 예시 : SPF 레코드가 여러 개일 경우 해당 정보들을 한 줄에 모두 표시하여야 합니다. 
+	- 조회 예시 
 	example.com    text = "v=spf1 include:example.spf.com include:_spf.dooray.com ~all"
+        (SPF 레코드가 여러 개일 경우 해당 정보들을 한 줄에 모두 표시하여야 합니다.)
 
 3. DNS TXT 정보를 확인하는 방법은 아래와 같습니다.
 - nslookup -q=txt 도메인 명
