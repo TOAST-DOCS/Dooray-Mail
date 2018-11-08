@@ -140,10 +140,10 @@ Dooray! 메일에서는 메일을 받는 사람의 언어 설정에 따라 메�
 Dooray! Mail 사용 시, Dooray!에서 제공하는 메일 주소 (도메인.dooray.com)가 아닌, 자체 메일 주소를 사용하고자 할 경우 자체 도메인을 추가할 수 있습니다. 현재는 dooray.com에서 ‘새로운 조직 만들기’ 단계에서 도메인 입력 란 바로 아래 있는 [자체 도메인 추가] 버튼을 클릭하면 자체 도메인 추가를 위한 화면이 제공됩니다. 자체 도메인 추가는 현재 조직 만들기 단계에서만 할 수 있으므로, 이미 조직을 만든 이후라면 따로 dooray@nhnent.com으로 문의주세요.
 
 #### MX레코드 및 SPF레코드 설정 안내 
+dooray.com에서 "무료 체험" 메뉴를 누른 후, 새로운 조직 만들기 페이지에서 도메인을 입력할 때 자체 메일 주소 설정을 바로 할 수 있습니다. 
 
 1단계: 메일 주소로 사용할 도메인을 입력합니다. 
 - ‘새로운 조직 만들기’ 단계에서 도메인 입력
-- 이미 조직을 만든 이후라면 dooray@nhnent.com으로 문의
 
 2단계: 도메인을 구매 / 관리하는 사이트에 접속하여 DNS 설정에서 아래 정보로 MX레코드를 변경합니다.
 - MX레코드 (메일 서버 주소): aspmx1.dooray.com, 우선순위: 1 
@@ -153,15 +153,17 @@ Dooray! Mail 사용 시, Dooray!에서 제공하는 메일 주소 (도메인.doo
 
 SPF 레코드는 발송 메일 서버 정보를 DNS에 공개 등록함으로써 수신자로 하여금 이메일에 표시된 발송자의 발송지 정보가 실제 메일 서버 정보와 일치하는지 확인할 수 있도록 하는 인증 기술입니다.사이트에 따라 SPF 레코드가 등록되어 있지 않은 경우 메일 수신을 거부하거나 스팸으로 분류하므로 SPF 레코드를 등록하는 것을 권장합니다.
 
-#### 조직을 만든 후 자체 메일 주소 연동하기
-현재는 dooray.com에서 새로운 조직 만들기 단계에서만 자체 도메인 추가 화면을 제공하고 있어서 이미 조직을 만드신 이후라면, 아래 가이드대로 하신 이후에 dooray@nhnent.com 으로 메일이 필요합니다.
+#### 조직을 이미 만든 후 자체 메일 주소 연동하기
+현재는 dooray.com에서 새로운 조직 만들기 단계에서만 자체 도메인 추가 화면을 제공하고 있어서 이미 조직을 만드신 이후라면, 아래 가이드대로 하신 이후에 dooray@nhnent.com으로 메일을 주시면 절차대로 진행을 해드리고 있습니다.  
 
-1. 자체 도메인 주소를 전달
-만약 사용 중인 자체 도메인이 있다면, MX를 변경한 이후, 저희 쪽에서 등록하기 전까지 메일을 못받는 경우가 있습니다. 변경을 원할 때, 자체 도메인 주소를 dooray@nhnent.com 으로 전달하면 메일로 안내합니다. 그 이후에 아래 가이드대로 MX변경을 진행하면 됩니다.
+1단계: 자체 도메인 주소를 두레이로 전달
+만약 사용 중인 자체 도메인이 있다면, MX레코드를 먼저 변경할 경우 저희 쪽에서 직접 메일 수신 준비를 하기 전까지 메일을 못받는 경우가 있습니다. 변경을 원할 때 자체 도메인 주소를 dooray@nhnent.com으로 먼저 전달해주시면 저희가 처리 후 MX레코드 변경 안내를 메일로 보내드립니다. 
 
-2. 아래 가이드대로 변경
-도메인을 구매/관리하는 사이트에 접속하여 DNS 설정에서 MX레코드를 변경합니다.
+2단계: MX레코드 변경 
+도메인을 구매/관리하는 사이트에 접속하여 DNS설정에서 MX레코드를 변경합니다.
 - MX레코드 (메일 서버 주소) : aspmx1.dooray.com    우선순위 : 1
+
+3단계: SPF 레코드 설정
 Dooray! 에서 메일 발송 시, 수신 측 스팸 정책에 따라 SPF 레코드 등록이 필요할 수 있으므로 SPF 레코드 설정이 필요할 경우 아래 정보로 SPF 레코드를 추가 합니다.
 - SPF 레코드 : _spf.dooray.com 
 
@@ -169,24 +171,24 @@ Dooray! 에서 메일 발송 시, 수신 측 스팸 정책에 따라 SPF 레코�
 SPF 레코드는 DNS의 TXT 정보 영역에 등록하며 등록 양식은 아래와 같습니다.
 
 1. SPF 레코드를 신규 등록하는 경우 등록 양식
-- v=spf1 include:_spf.dooray.com ~all
-- 조회 예시
-example.com    text = "v=spf1 include:_spf.dooray.com ~all"
+	- v=spf1 include:_spf.dooray.com ~all
+	- 조회 예시
+	example.com    text = "v=spf1 include:_spf.dooray.com ~all"
 
 2. 기존에 등록되어 있는 SPF 레코드가 있는 경우 등록 양식
-1) 기존에 등록되어 있는 SPF 레코드가 IP 일 경우
-- v=spf1 ip4:1.2.3.4 include:_spf.dooray.com ~all
-- 조회 예시
-example.com    text = "v=spf1 ip4:1.2.3.4 include:_spf.dooray.com ~all"
-2) 기존에 등록되어 있는 SPF 레코드가 도메인 형태 일 경우
-- v=spf1 include:example.spf.com include:_spf.dooray.com ~all
-- 조회 예시 : SPF 레코드가 여러 개일 경우 해당 정보들을 한 줄에 모두 표시하여야 합니다.
-example.com    text = "v=spf1 include:example.spf.com include:_spf.dooray.com ~all"
+-  기존에 등록되어 있는 SPF 레코드가 IP 일 경우
+	- v=spf1 ip4:1.2.3.4 include:_spf.dooray.com ~all
+	- 조회 예시
+	 example.com    text = "v=spf1 ip4:1.2.3.4 include:_spf.dooray.com ~all"
+-  기존에 등록되어 있는 SPF 레코드가 도메인 형태 일 경우
+	- v=spf1 include:example.spf.com include:_spf.dooray.com ~all
+	- 조회 예시 : SPF 레코드가 여러 개일 경우 해당 정보들을 한 줄에 모두 표시하여야 합니다.
+	example.com    text = "v=spf1 include:example.spf.com include:_spf.dooray.com ~all"
 
 3. DNS TXT 정보를 확인하는 방법은 아래와 같습니다.
-1) nslookup -q=txt 도메인 명
-2) dig txt 도메인명
-3) 인터넷에서 DNS 정보 조회 서비스 제공 사이트 
+- nslookup -q=txt 도메인 명
+- dig txt 도메인명
+- 인터넷에서 DNS 정보 조회 서비스 제공 사이트 
 
 ### IMAP을 이용한 Outlook 메일 이전 가이드
 Outlook에 설정한 기존 메일을 내보내기 한 후, Dooray! 메일 계정으로 메일 가져오기를 합니다.    
