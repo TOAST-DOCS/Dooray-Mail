@@ -164,16 +164,16 @@ SPF 레코드는 발송 메일 서버 정보를 DNS에 공개 등록함으로써
 - MX레코드 (메일 서버 주소) : aspmx1.dooray.com    우선순위 : 1
 
 3단계: SPF 레코드 설정
-Dooray! 에서 메일 발송 시, 수신 측 스팸 정책에 따라 SPF 레코드 등록이 필요할 수 있으므로 SPF 레코드 설정이 필요할 경우 아래 정보로 SPF 레코드를 추가 합니다.
+Dooray! 에서 메일 발송 시, 수신 측 스팸 정책에 따라 SPF 레코드 등록이 필요할 수 있으므로 SPF 레코드 설정이 필요할 경우 아래 정보로 SPF 레코드를 추가 합니다. SPF 레코드 등록 양식을 참고해주세요.
 - SPF 레코드 : _spf.dooray.com 
 
 #### SPF 레코드 등록 양식 
 SPF 레코드는 DNS의 TXT 정보 영역에 등록하며 등록 양식은 아래와 같습니다.
 
-1. SPF 레코드를 신규 등록하는 경우 등록 양식
-	- v=spf1 include:_spf.dooray.com ~all
-	- 조회 예시
-	example.com    text = "v=spf1 include:_spf.dooray.com ~all"
+SPF 레코드를 신규 등록하는 경우 등록 양식
+- v=spf1 include:_spf.dooray.com ~all
+- 조회 예시
+example.com    text = "v=spf1 include:_spf.dooray.com ~all"
 
 2. 기존에 등록되어 있는 SPF 레코드가 있는 경우 등록 양식
 -  기존에 등록되어 있는 SPF 레코드가 IP 일 경우
@@ -184,7 +184,7 @@ SPF 레코드는 DNS의 TXT 정보 영역에 등록하며 등록 양식은 아�
 	- v=spf1 include:example.spf.com include:_spf.dooray.com ~all
 	- 조회 예시 
 	example.com    text = "v=spf1 include:example.spf.com include:_spf.dooray.com ~all"
-        - SPF 레코드가 여러 개일 경우 해당 정보들을 한 줄에 모두 표시하여야 합니다. 
+	- SPF 레코드가 여러 개일 경우 해당 정보들을 한 줄에 모두 표시하여야 합니다. 
 
 3. DNS TXT 정보를 확인하는 방법은 아래와 같습니다.
 - nslookup -q=txt 도메인 명
