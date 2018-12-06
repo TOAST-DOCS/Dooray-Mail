@@ -146,7 +146,8 @@ dooray.com에서 "무료 체험" 메뉴를 누른 후, 새로운 조직 만들�
 - ‘새로운 조직 만들기’ 단계에서 도메인 입력
 
 2단계: 도메인을 구매 / 관리하는 사이트에 접속하여 DNS 설정에서 아래 정보로 MX레코드를 변경합니다.
-- MX레코드 (메일 서버 주소): aspmx1.dooray.com, 우선순위: 1 
+- MX레코드 (메일 서버 주소): aspmx1.dooray.com. (com 뒤에 .을 붙여야 합니다.) 
+- 우선순위: 1 
 
 3단계: Dooray로 메일 발송, 수신 시 스팸으로 분류되지 않도록 SPF 레코드 등록이 필요합니다.
 - SPF 레코드 : _spf.dooray.com 
@@ -161,7 +162,7 @@ SPF 레코드는 발송 메일 서버 정보를 DNS에 공개 등록함으로써
 
 2단계: MX레코드 변경 
 도메인을 구매/관리하는 사이트에 접속하여 DNS설정에서 MX레코드를 변경합니다.
-- MX레코드 (메일 서버 주소) : aspmx1.dooray.com    우선순위 : 1
+- MX레코드 (메일 서버 주소) : aspmx1.dooray.com.    우선순위 : 1
 
 3단계: SPF 레코드 설정
 Dooray! 에서 메일 발송 시, 수신 측 스팸 정책에 따라 SPF 레코드 등록이 필요할 수 있으므로 SPF 레코드 설정이 필요할 경우 아래 정보로 SPF 레코드를 추가 합니다. SPF 레코드 등록 양식을 참고해주세요.
@@ -185,6 +186,10 @@ example.com    text = "v=spf1 include:_spf.dooray.com ~all"
 	- 조회 예시 
 	example.com    text = "v=spf1 include:example.spf.com include:_spf.dooray.com ~all"
 	- SPF 레코드가 여러 개일 경우 위와 같이 해당 정보들을 한 줄에 모두 표시하여야 합니다. 
+
+##### 도메인을 구매/관리하는 사이트 중 하나인 '가비아'에서 DNS 설정 예시  
+![MX 레코드](http://static.toastoven.net/prod_dooray_mail/10_mail_mxRecord.png)
+<center>[그림]가비아 DNS 설정 예시</center>  
 
 ##### DNS TXT 정보를 확인하는 방법은 아래와 같습니다.
 - nslookup -q=txt 도메인 명
