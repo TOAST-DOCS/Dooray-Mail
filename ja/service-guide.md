@@ -210,11 +210,11 @@ Outlook 파일 메뉴를 선택해 계정 정보에서 계정 추가 버튼을 �
 - Dooray! 메인 설정 > 메일 > IMAP 설정 안내의 아이디, 비밀번호 정보를 아웃룩 계정 설정에 입력합니다.
 - 주의: 아웃룩 IMAP 로그온 정보의 암호는 Dooray! IMAP 설정의 비밀번호를 복사해서 입력해야 합니다. 
 	
-![Outlook03](http://static.toastoven.net/prod_dooray_mail/03_mail_outlook_imap2.png)
-<center>[그림]Outlook 메일 계정 설정</center>        
-
 ![Outlook04](http://static.toastoven.net/prod_dooray_mail/04_mail_dooray_imap.png)
-<center>[그림]Dooray! 메일 IMAP 설정 정보 확인</center>        
+<center>[그림]Dooray! 메일 IMAP 설정 정보 확인</center>   
+
+![Outlook03](http://static.toastoven.net/prod_dooray_mail/03_mail_outlook_imap2.png)
+<center>[그림]Outlook 메일 계정 설정</center>             
 
 아웃룩 POP 및 IMAP 계정 설정 창 하단에 있는 기타 설정 클릭합니다. 
 
