@@ -1,108 +1,108 @@
-## Dooray! > Mail > 서비스 가이드
-### 메일 보내기 
-#### 보내는 주소와 이름
-보내는 주소와 이름을 변경하여 메일을 발송할 수 있습니다. 메일 설정에서 보내는 주소와 이름을 각각 최대 10개까지 추가할 수 있으며, 추가된 주소와 이름은 쓰기 창에서 자유롭게 변경할 수 있습니다. 쓰기 창에 보내는 주소와 이름 영역이 보이지 않은 경우, 화면 하단의 [...]을 클릭하여 [From 표시]를 선택하세요.
+﻿## Dooray! > Mail > Service Guide
+### Send Mail 
+#### Sender's address and name
+You can change the sender's address and name when sending an email. In Mail Settings, you can add up to 10 sender's addresses and names respectively. The added addresses and names can be changed in the Write Email window as you want. If the sender's address and name fields are not shown in the Write Email window, click [...] to select [From] at the bottom of the screen.
 
-#### 개별 발송
-메일을 여러 명에게 동시에 보낼 때 받은 메일에서 개인 1명만 수신인으로 보여지도록 개별 발송할 수 있습니다. 메일 쓰기 창에서 받는 사람 입력란의 우측에 [개별]을 체크하고 메일을 발송합니다.
+#### Send individually
+When sending an email to multiple users at once, you can send it individually to display only one recipient for each mail. Check the [Individual] box on the right side of the recipient in the Write Email window and then send the email.
 
-#### 수신, 참조, 숨은 참조
-메일 쓰기 창에서 받는 사람 외에도, 참조와 숨은 참조로 메일 주소를 넣을 수 있습니다. 숨은 참조는 메일을 받는 사람과 참조인에게는 메일 주소가 노출되지 않습니다. 숨은 참조로 메일을 받은 사람도 수신인에 본인의 메일 주소가 노출되지 않으므로 업무 메일을 보낼 때 참조와 숨은 참조를 구분할 필요가 있습니다. 
-숨은 참조로 보낸 메일도 보낸 메일 목록 또는 본문에서 수신 여부를 확인할 수 있습니다. 
+#### To, Cc, Bcc
+In the Write Email window, you can add email addresses in not only To field but also Cc and Bcc fields. Addresses in Bcc field are not exposed to the recipients in To and Cc fields. The email address of Bcc recipient is also not displayed in the Bcc field. Therefore, it is necessary to distinguish between users to be added in Cc and Bcc. 
+In addition, receipts of email sent to Bcc can be checked from the Mail Sent list or the mail body. 
 
-#### 보안 메일
-보안 메일을 사용할 경우, 외부 계정으로 메일 발송을 금지하고 특정 메일에 대해 일정 기간 후 자동으로 삭제시키거나 전달을 금지시킬 수 있습니다. 쓰기 창 안의 [보안]버튼을 클릭해 일반, 대외비, 기밀 중 선택하여 설정합니다. 대외비로 설정 시, 메일 전달이 금지되고 설정한 기간(기본 30일)이 지난 후 메일이 자동 삭제 됩니다. 기밀로 설정 시, 메일 전달이 금지되고 설정한 기간 (기본 30일)이 지나면 자동 삭제되도록 설정됩니다. 보안 메일 전송 시, 수신 주소에 외부 계정이 포함된 경우 외부 계정을 수신인에서 제외해야 메일이 발송됩니다. 보안 메일의 경우 업무로 등록할 수 없습니다.
+#### Secure Mail
+Secure mails allow you to prohibit sending emails to external accounts, to auto-delete specific emails after a specified period, and to prohibit forwarding specific emails. Click the [Secure] mail in the Write Email window and choose either one of General, Confidential, or Classified. When Confidential is selected, mail forwarding is prohibited and the mail is automatically deleted after a specified period (30 days by default). When Classified is selected, mail forwarding is prohibited and the mail is automatically deleted after a specified period (30 days by default). If an external account is included in the recipients addresses for a secure mail, the mail is not sent until the external account is removed from the list of recipients. The secure mail cannot be registered as work.
 
-#### 첨부 파일
-메일 쓰기 창 하단에 파일 아이콘을 클릭하여 파일을 첨부할 수 있습니다. 최대 20MB까지 일반 첨부 가능하며, 대용량 첨부(링크 형태)로는 최대 5GB까지 가능합니다. 대용량 첨부의 경우 30일 보관되며 이후 자동 삭제됩니다.
+#### Attachment
+Click the File icon at the bottom of the Write Email window to attach a file. Up to 20 MB is allowed for common mails. For a large-sized attachment (provided in a link format), up to 5 GB is allowed. Large attachment is stored for 30 days and then automatically deleted after that.
 
-#### 최근 사용 주소
-최근에 발송한 메일 주소는 자동으로 저장되며, 메일 쓰기 시 수신인과 참조인 란을 클릭하면 최근 사용한 주소 목록 30개를 확인할 수 있습니다.
+#### Latest Addresses
+Recently used mail addresses are automatically stored. Click To and Cc fields and a list of recent 30 addresses will be displayed.
 
-### 메일 받기 
-#### 답장 및 전달
-받은 메일 상단의 [전체 답장] 옆의 [▼] 버튼을 클릭하면 [전체 답장] [답장] [전달] 메뉴가 보입니다. 메일 수신인, 참조인 전체를 포함하여 답장을 하는 경우는 [전체 답장], 메일을 보낸 이에게만 답장 시에는 [답장], 메일 본문 및 첨부파일을 전달하고자 하는 경우는 [전달]을 선택해 주세요.
+### Receive Mail 
+#### Reply and Forward
+Click the [▼] button next to [Reply All] at the top of the received mail, [Reply All] [Reply] [Forward] menus are shown. When replying all including the sender and Cc of the mail, select [Reply All]. When replying the sender only, select [Reply]. When forwarding the mail body and attachments, select [Forward].
 
-#### 메일 보관
-받은 메일을 보관하고자 하는 경우 메일 상단의 [보관]을 선택합니다. 자동 분류 기능을 활용해 메일 제목, 보낸 사람, 받는 사람, 참조, 첨부파일 유무 등의 기준으로 보관 메일함에 자동으로 보낼 수 있습니다. 메일을 따로 보관하기 위해 휴지통을 활용하는 사용성도 있으나, 이제 휴지통에 보관하지 마시고 보관 메일함을 이용해 주세요.
+#### Archive Mail
+To archive the received mail, select [Archive] at the top of the mail. With the automatic classification feature, you can archive the mail to the Archive Mailbox automatically, based on Title, To, From, Cc, and Attachment. Trash Bin can still be used to archive mails separately, but it is recommended to use Archive Mailbox rather than Trash Bin.
 
-#### 메일 이동
-받은 메일을 내 폴더에 이동하고자 하는 경우 메일 상단의 [이동]을 선택합니다. 새 폴더를 만들어 메일 이동을 할 수도 있고, 자동 분류 기능을 활용해 특정 폴더로 이동시킬 수도 있습니다.
+#### Move Mail
+To move the received mail to My Folder, select [Move] at the top of the mail. You can create a new folder or use the automatic classification feature to move mails to a specific folder.
 
-#### 번역 기능 사용
-메일 상단의 [...]을 클릭하여 [번역 켜기]를 선택합니다. 메일 본문의 언어와 번역하고 싶은 언어를 선택한 후 [번역하기]를 클릭합니다.   
+#### Translation On
+Click [...] at the top of the mail to select [Translation On]. Select a source language of the mail body and then the target language. Click [Translate].   
 
-#### 원문 다운로드
-메일 원문을 저장하고자 하는 경우 메일 상단의 [...]을 클릭하여 [원문 다운로드]를 선택합니다. 원문 다운로드를 할 경우, 메일 제목.eml 형태로 저장됩니다.   
+#### Download Original
+To save the mail body, click [...] at the top of the mail and select [Download Original]. The downloaded original body is saved as 'mail title.eml'.   
 
-#### 메일함 모두 읽음 표시
-메일함에서 읽지 않은 메일들을 일괄적으로 ‘모두 읽음 표시’를 하고 싶은 경우 메일함에 마우스 오버 시 우측 끝에 작은 점3개 아이콘을 클릭합니다. 노출된 2개의 메뉴 중 모두 읽음 표시를 클릭하면 메일함의 안 읽은 메일들이 일괄적으로 읽음 처리됩니다. 
+#### Mailbox Marked as Read
+To 'marked as read' the unread mails in the mailbox, hover mouse over the mailbox and click the small three-dot icon at the right end. From the two displayed menus, click 'Marked as read' to mark all unread mails in the mailbox. 
 
-### 수신 확인 및 발송 취소 
-메일을 발송하고 나서 수신인이 메일을 읽었는지 확인을 하고 싶거나, 발송 취소를 하고 싶다면 보낸 메일함의 목록이나 보낸 메일의 본문을 확인해 보세요. 
-수신인 옆에 [2/3명 읽음▼]으로 간단하게 수신 여부를 확인할 수 있고, 해당 영역을 클릭하면 개별의 수신 상태 및 읽은 시간 등과 같이 자세한 정보를 추가로 확인할 수 있습니다. 단, 텍스트 모드와 SMTP로 메일을 발송한 경우에는 수신 확인이 불가능할 수 있습니다.
+### Receipts and Cancel Transfer 
+After sending a mail, if you want confirmation as to whether the recipient has read the email or not, or to cancel the sent mail, check the mail list in Sent or the body of the sent mail. 
+You can simply check the read receipt such as [Read by 2/3▼]. When clicking it, you can see the detailed information such as the receipt status and the time it was read by each recipient. However, read receipt may not be available if you send a mail via text mode and SMTP.
 
-메일을 잘못 보내 회수하고 싶은 경우, 수신 확인 정보 옆의 [발송 취소]를 클릭하면 보낸 메일을 회수할 수 있습니다. 외부 메일 서비스에 발송된 메일을 회수가 불가능하며, Dooray! 메일 서비스에서도 같은 테넌트(회사/조직) 사용자에 보낸 메일에 대해서만 가능합니다. 수신인이 읽기 전이거나 발송 후 24시간 이내에만 가능하고, SMTP로 발송한 메일은 회수가 불가능하니 유의해 주세요.
+If you want to recall a wrong mail sent, click [Cancel Transfer] to recall the mail sent. The mail sent to the external mail service cannot be recalled. Even within the Dooray! Mail service, recall is available only for the mail sent to the user who has the same tenant (company/organization). Recall is available only for mails not read yet or sent within 24 hours. Please note that the mail sent via SMTP cannot be recalled.
 
-### 받은 메일 업무로 등록 
-Dooray! 메일을 이용하다가 메일 내용을 업무로 바로 활용하고 싶은 경우 Dooray! 프로젝트에 메일 내용을 따로 정리하여 업무로 등록하지 않아도 메일에서 바로 업무를 등록할 수 있습니다. 메일 본문 상단의 [...]을 클릭하여 [업무로 등록]을 선택합니다. 단, 대외비/기밀로 설정된 보안 메일의 경우 업무로 등록할 수 없습니다. 
-외부에서 온 메일을 업무로 반복해서 등록해야 하는 경우가 생긴다면 메일의 자동 분류 기능을 활용해 보세요. 제목, 보낸 사람, 받는 사람, 참조 등의 기준으로 특정 프로젝트와 담당자를 지정하여 자동으로 업무를 등록할 수 있습니다.
+### Register Received Mail as Work 
+Dooray! While using Dooray! Mail, if you want to use the mail contents directly for work, register the mail as work directly without summarizing the mail contents to Dooray! Project and registering as work. Click [...] at the top of the mail to select [Register as Work]. However, the secure mail with Confidential or Classified cannot be registered as a work. 
+If the mails received from external services should be registered repeatedly, use the automatic classification feature. Based on Title, To, From, and Cc, you can register work automatically by specifying projects and assigning a person in charge.
 
-### 주소록에 추가 
-수신된 메일의 보낸 사람, 받는 사람, 참조자의 메일 주소를 주소록에 간편하게 추가할 수 있습니다. 메일 본문 상단에서 보낸 사람, 받는 사람, 참조자의 이름 또는 메일 주소를 클릭할 경우 선택한 사람의 프로필이 노출됩니다. 주소록에 추가되지 않은 사람의 경우 프로필 우측 하단에 [주소록 추가] 메뉴가 노출되며, 이미 주소록에 추가된 사람의 경우 [소록 편집] 메뉴가 노출됩니다. 주소록에 추가할 경우 메일쓰기 시 받는 사람, 참조 란에서 메일 주소를 일일이 입력하지 않아도 자동 완성되어 편리하게 메일을 작성할 수 있습니다.  
+### Add to Contacts 
+Add the mail addresses of To, From, and Cc of the received mail to Contacts in a simple way. On the top of the mail body, click the name or mail address of To, From, or Cc to view the profile of the selected person. If the person has not been added to Contacts, the [Add to Contacts] menu is displayed at the right bottom of the profile. If already added to Contacts, the [Edit Contact] menu is displayed. After being adding to Contacts, the address is auto completed in To and CC fields so you can write a mail easily without typing the address.  
  
-### 메일 검색 
-Dooray! 우측 상단의 검색 영역에서 키워드를 입력하여 메일을 검색할 수 있습니다. 전체 메일함 뿐 아니라 메일함 별, 폴더 별 검색이 가능합니다.
-좌측 메일함에서 검색할 메일함을 선택하고, 찾고자 하는 키워드를 입력합니다. 키워드가 들어간 필드(제목, 본문, 보낸 사람, 받는 사람, 참조)를 선택하면 선택한 메일함에서 검색어가 들어간 메일을 찾을 수 있습니다.
+### Search Mail 
+Dooray! In the search area on the right top of Dooray!, type the keyword to search for a mail. You can search for a mail from the entire mailboxes, by mailbox, and by folder.
+Select a mailbox to search from the left mailboxes and type the keyword to search. Select the fields which include the keyword (Title, Body, From, To, CC) to search for the mail with the keyword.
 
-### 메일 설정 
-Dooray! 서비스와 관련된 설정은 Dooray! 메인 우측 상단 사용자 이름 옆에 설정 아이콘을 클릭하면 설정 화면이 뜹니다. [설정> 메일]을 선택하세요.
+### Mail Settings 
+Dooray! The Settings related to Dooray! service is displayed by clicking the Settings icon next to the user name on the right top of the main screen. Select [Settings > Mail].
 
-#### 읽기> 목록/본문 보기
-메일 읽기 시 목록과 본문 보기 방식을 설정할 수 있습니다. 목록 뷰를 선택할 경우 본문 영역에 메일 목록만 보여, 목록에서 메일 제목을 클릭하면 본문 화면이 목록 위에 보입니다. 별도로 새 창 팝업으로 읽기를 선택할 수도 있습니다. 분할 뷰를 선택할 경우 메일 목록은 좌측, 본문은 우측에 표시됩니다. 목록에서 메일 제목만 선택하면서 본문을 바로 읽을 수 있습니다. 별도로 목록의 첫 번째 메일이 자동으로 선택되도록 추가 설정할 수 있습니다. 
+#### Read > List/Body View
+Set the view type of the list and body when you read a mail. If you select List View, only the mail list is displayed in the body area. Click the mail title from the list to display the body screen on the list. You can also select Read in New Window. If you select Split View, the mail list is displayed on the left side and the body is displayed on the right side. So you can read the body directly by clicking the mail title from the list. You can set the first mail to be selected from the list automatically. 
 
-#### 읽기> 대화형 보기
-주고받은 메일을 대화 형태(하나의 메일)로 묶어 볼 수 있습니다. 같은 제목으로 주고받은 메일들이 하나의 메일로 묶이게 되어 메일 목록은 더욱 간단해지고, 묶여 있는 메일들의 숫자가 표시되어 주고받은 메일의 양을 쉽게 확인할 수 있습니다.
+#### Read > Interactive View
+You can view the mails as an interactive form (one mail). The mails sent and received under the same title are grouped to one mail, making the mail list simpler. In addition, the number of grouped mails is displayed so you can check the number of mails easily.
 
-#### 읽기> 이동/삭제 후 동작
-메일을 이동하거나 삭제한 이후 동작을 설정할 수 있습니다. 목록으로 이동, 이전 항목 열기, 다음 항목 열기 중 동작을 선택할 수 있습니다.  
+#### Read > Actions after Move/Delete
+You can set the actions to be done after moving or deleting a mail. Select an action from Go to List, Open the Previous Item, and Open the Next Item.  
 
-#### 쓰기> 보내는 주소/이름
-보내는 주소와 이름을 각각 최대 10개까지 추가할 수 있으며, 쓰기 창에서 등록된 주소와 이름을 자유롭게 변경하여 메일을 발송할 수 있습니다. 보내는 주소와 이름을 쓰기 창에 기본으로 노출하는 여부도 선택할 수 있습니다.
+#### Write > Incoming Address/Name
+You can add up to 10 incoming addresses and names respectively. The added addresses and names can be changed in the Write Email window as you want. In addition, you can set whether to display the incoming addresses and names in the Write Email window by default or not.
 
-#### 쓰기> 보내는 메일에 나를 포함
-메일 쓰기 시 보내는 메일에 나를 자동으로 포함할 지 설정할 수 있습니다. 보내는 메일에 참조, 숨은 참조 포함 여부를 선택할 수 있습니다.   
+#### Write > Include Me to Outgoing Mail
+When writing a mail, set whether to include me to the outgoing mail automatically or not. You can select whether to include Cc and Bcc to the outgoing mail or not.   
 
-#### 쓰기> 발송 전 미리 보기
-메일 발송 전에 수신인과 메일 내용을 다시 확인할 수 있도록 미리 보기를 설정할 수 있습니다. 모든 메일에 대해 설정할 수 있으며, 중요 메일(!)이나 수신인에 외부 메일주소가 있을 때만 사용할 수 있도록 설정할 수 있습니다.
+#### Write > Preview before Send
+Set the preview to check the recipients and mail contents again before sending the mail. You can set this for all mails, but you can also set to use this only for important mails(!) or when an external mail address is included in the recipient field.
 
-#### 쓰기> 대기 발송
-쓰기 창에서 [보내기]를 누른 후, 일정 시간을 대기한 후에 메일이 발송될 수 있도록 설정할 수 있습니다. 대기 시간은 30초, 1분, 2분, 3분 중에서 선택하여 설정할 수 있으며, 대기 시간 동안에는 보낸 메일 목록 또는 본문에서 메일 발송을 자유롭게 취소할 수 있습니다.
+#### Write > Schedule Send
+Set to send the mail after a specified time period from clicking [Send] in the Write Email window. You can set the schedule time among 30 secs, 1 min, 2 mins, and 3 mins. During the schedule time, you can cancel the outgoing mail from the Mail Sent list or the mail body.
 
-#### 쓰기> 기본 응답
-메일 쓰기 시 기본 응답을 지정할 수 있습니다. 기본 응답을 어떻게 할지 전체 답장, 답장, 전달을 선택할 수 있습니다.  
+#### Write > Default Response
+Specify the default response when writing a mail. You can select the default response among Reply All, Reply, or Forward.  
 
-#### 자동 분류
-수신한 메일을 원하는 조건을 선택하여 자동 분류를 할 수 있습니다. 수신한 메일 상단의 […] 메뉴를 누르면 자동 분류 추가 메뉴를 확인 할 수 있습니다. 현재 메일의 제목, 보낸 사람, 받는 사람, 참조 등의 정보가 분류 조건에 추가되어 있어 규칙을 추가하는데 편의를 제공합니다. 특히 조건과 수행을 입력한 후 분류 추가 화면의 하단의 [이전에 받았던 메일함에도 일괄 적용]을 선택할 경우 해당 조건이 기존 받은 메일에서도 모두 적용됩니다.     
-- 설정 > 메일 > 자동 분류에서 설정할 수 있으며, 최대 500개까지 저장이 가능합니다. 
-- 등록된 분류의 우선 순위는 항목의 상단에 있는 규칙이 우선 적용됩니다. 
+#### Automatic Classification
+You can perform automatic classification of received mails with specific conditions. Click […] menu at the top of the received mail to display the additional menus for automatic classification. For easy addition of rules, various classification conditions are provided such as Title, From, To, Cc, etc. for the current mail. After entering conditions and dos, if you select [Batch Processing to Previous Mails] at the bottom of the Add Conditions screen, the conditions are applied to the mails received before.     
+- To set this feature, go to Settings > Mail > Automatic Classification. You can save up to 500. 
+- The rule at the top of the list has the highest priority over the other registered classifications. 
 
-#### POP3(post office protocol)/ IMAP(Internet messaging access protocol) 소개
-메일을 수신하는 프로토콜에는 POP3와 IMAP이 있습니다. POP3는 메일 서버에 있는 메일을 자신의 컴퓨터로 다운로드 하여 사용자 PC에서 관리해주는 프로토콜로 주기적으로 서버에 있는 메일 수신함을 확인하고, 메일이 있으면 사용자PC로 다운로드 합니다. POP3로 사용자 PC에 메일을 수신한 경우 서버에서 메일이 삭제되어 다른 컴퓨터에서 확인하려고 해도 할 수 없는 특징이 있습니다. 
+#### POP3 (Post Office Protocol)/IMAP (Internet Messaging Access Protocol) 
+POP3 and IMAP are the protocols for receiving mails. POP3 is a protocol that downloads mails on the mail server to user's computer. It periodically checks the inbox in the server and downloads mails to user's computer. POP3 is designed to delete mail from the server if it is downloaded by the user to his or her computer. Therefore, it is not available for other computers to read the mail in the server once the mail has been downloaded. 
 
-IMAP은 메일 서버에 접속해 메일을 읽기 위한 프로토콜로 여러 대의 컴퓨터나 노트북, 스마트폰 등의 다양한 디바이스를 통해 이메일을 확인할 수 있고, 모든 기기에서 이메일을 동기화 시켜주는 프로토콜로 POP3보다 훨씬 유연하고 뛰어납니다.   
+IMAP is a protocol to access the mail server to read mails. You can read mails on various devices including multiple computers, laptops, and smartphones. IMAP synchronizes mails across all devices, providing highly flexible and great performance when compared to POP3.   
 
-#### IMAP/ SMTP(Simple Mail Transfer Protocol)설정
-Dooray! 메일 수신은 POP3 방식이 아닌 IMAP을 지원하고 있습니다. Dooray! 메일을 사용하기 위해서는 IMAP 설정과 인터넷 상에서 메일을 전송할 때 쓰이는 표준 프로토콜인 SMTP 설정이 필요합니다. 
+#### IMAP/SMTP(Simple Mail Transfer Protocol) Settings
+Dooray! Dooray! Mail supports IMAP not POP3 for receiving mails. Dooray! Mail, you should set the IMAP and the SMTP which is a standard protocol used to send mails on Internet. 
 
-IMAP, SMTP설정은 [설정> 메일> IMAP] 메뉴를 선택해 설정 안내를 확인합니다. 사용할 메일 프로그램 또는 어플리케이션의 설정에 안내한 대로 등록을 합니다. 
+To set IMAP and SMTP, go to [Settings > Mail > IMAP] menu and refer to the setting guide. Register the mail program or application to use by referring to settings. 
 
--	수신 서버 (IMAP): imap.dooray.com   IMAP 포트: 993, 보안 연결(SSL) 필요 
--	발신 서버 (SMTP): smtp.dooray.com   SMTP 포트: 465, 보안 연결(SSL) 필요 
--	아이디: Dooray! 메일 주소 (도메인 포함) 
--	비밀번호: IMAP 전용 암호는 [설정> 메일> IMAP]에서 확인하고 복사해서 사용해야 합니다. (암호화 키 발급)
+-	Incoming Server (IMAP): imap.dooray.com   IMAP Port: 993, secured connection (SSL) required 
+-	Outgoing Server (SMTP): smtp.dooray.com   SMTP Port: 465, secured connection (SSL) required 
+-	ID: Dooray! Mail address (including the domain) 
+-	Password: Go to [Settings > Mail > IMAP] to check, copy, and use the IMAP-dedicated password. (issuing encryption key)
 
-#### IMAP 지원 클라이언트
+#### IMAP supporting client
 - Thunder Bird
 - Outlook
    - 2016(MacOs)
@@ -116,194 +116,200 @@ IMAP, SMTP설정은 [설정> 메일> IMAP] 메뉴를 선택해 설정 안내를 
 - Android Galaxy Mail
 - Gmail Client App
 
-#### 서명 설정 
-보내는 메일에 서명을 설정할 수 있습니다. [설정> 메일> 서명]을 선택하여 사용함으로 선택을 하고 새로 작성하는 메일에 자동 포함할 지, 전달, 답장(전체 답장)에 자동으로 포함할지를 선택합니다. 서명은 최대 3개까지 추가할 수 있으며 기본 서명을 지정할 수 있습니다. 
+#### Set Signature 
+Set a signature for outgoing mails. Go to [Settings > Mail > Signature] and select ON. Then select whether to include the signature in newly written mails automatically or in forwarding or replying mails (Reply All) automatically. Up to three signatures can be added and one of them can be set as default. 
 
-#### 부재 중 설정 및 부재 중 자동 답장 
-부재 중 설정을 할 수 있으며, 부재 중 자동 답장을 설정하여 할 수 있습니다. 부재 기간을 설정하고, 답장 내용을 작성해 보세요. 부재 기간 동안 내가 작성해둔 내용으로 답장이 발송됩니다.   
+#### Out of Office Setting and Automatic Response during Out of Office 
+Set the Out of Office and the Automatic Response during Out of Office. Set the out-of-office period and write the response contents. A response is automatically sent with the contents written in advance during out-of-office.   
 
-#### 스팸 설정 
-스팸 설정 메뉴에서 수신 메일이 스팸으로 분류되거나 분류되지 않도록 메일 주소, 도메인을 등록하거나 관리할 수 있습니다. 수신 메일이 스팸으로 분류되지 않도록 메일 주소, 도메인을 등록하고 관리할 수 있으며 메일 주소 최대 500개, 메일 그룹 주소 최대 500개를 등록할 수 있습니다. 그 외 받고 싶지 않은 메일에 대해서도 메일 주소 또는 도메인을 최대 500개까지 지정하여 수신을 차단할 수 있습니다. 
-스팸으로 설정하였다 하더라도 메일을 확인하여 스팸을 해제하고자 할 경우 메일 본문 상단의 스팸 해제 버튼을 눌러 해제할 수 있으며, 해당 메일은 받은 메일함으로 이동되고 해당 메일 주소를 수신 허용 목록에 추가할 수 있습니다. 
+#### Spam Settings 
+In the Spam Settings menu, register or manage mail addresses and domains to classify received mails as Spam or Non-Spam. You can register or manage mail addresses and domains to prevent received mails from being classified to Spam. Up to 500 mail addresses and up to 500 mail group addresses can be registered. To block unwanted mails, you can specify up to 500 mail addresses and up to 500 domains. 
+If you want to unset a mail address from Spam, press Unset Spam at the top of the mail body. Then the mail is moved to the inbox and the mail address can be added to Safe List. 
 
-### 메일 번역 기능 
-Dooray! 메일에서는 메일을 받는 사람의 언어 설정에 따라 메일 본문을 바로 번역해서 볼 수 있도록 번역 기능을 제공합니다. Dooray! 메일 수신자의 언어 설정은 [설정> 일반> 언어]에서 확인할 수 있으며, 메일을 받은 경우 본문 위의 메뉴 영역에서 […] 메뉴를 누른 후, [번역 켜기] 메뉴를 누르면 메일 수신인의 언어 설정을 인식해 번역될 언어가 셋팅 됩니다. 번역할 언어를 확인 후 [번역하기] 버튼을 한 번만 누르면 됩니다. 기본 언어 설정을 영어로 한 사용자의 좌측 메일에서 번역 켜기 메뉴를 누르면 우측과 같이 제목부터 본문까지 모두 영어로 번역이 됩니다. 
+### Translate Emails 
+Dooray! Mail provides the email translation feature to translate the mail body directly according to the language settings of the recipient. Dooray! Mail recipient can check their language setting in [Settings > General > Language]. When a mail is received, click the […] menu in the menu area above the body and then click the [Turn Translation On] menu to set the target language based on the language settings of the recipient. Check the target language and click the [Translate] button just once. When clicking Turn On Translation for mails on the left side of the user whose default language is set to English, the contents from the title to the body are translated into English as shown in the right side. 
 
-메일 회신 시에도, 메일 받는 사람의 언어로 번역한 텍스트를 복사해 본문에 붙여 넣을 필요 없이 본문 에디터 영역에서 번역기를 켜면 본문을 자국어로 메일을 작성하더라도 [번역하기] 버튼을 한번만 누르면 바로 번역된 내용으로 메일을 바로 보낼 수 있습니다.
+When replying to a mail, you don't need to copy its translated text and paste it to the body. Just write messages in your own language, turn on the Translator in the body editor area, and then click the [Translate] button one time to send the translated mail.
 
-### 메일 그룹(DL) 만들기 
-조직 관리자가 여러 개의 메일 주소를 하나의 메일 그룹으로 만들어 메일을 발신, 수신할 수 있습니다. 메일 그룹 생성 기능은 현재는 MX레코드가 설정된 대상들에 한해 서비스를 제공 중이며, 조직 관리자만 만들 수 있습니다. [조직 관리> 서비스 설정> 메일 그룹] 메뉴를 선택해 그룹을 추가할 수 있습니다. 
+### Create Mail Group (DL) 
+The organization admin can group several mail addresses to one mail group for sending and receiving mails. Currently, the Create Mail Group function is available for only those targets with MX record setting applied and only the organization admin can use this feature. Go to [Manage Organization > Service Settings > Mail Group] menu and add a group. 
 
-생성한 메일 그룹 주소로 메일이 수신되는 경우, 그룹에 포함된 멤버들은 숨은 참조로 메일을 함께 받게 됩니다. 해당 메일에 수신자가 회신하면, 해당 그룹의 멤버들이 함께 메일을 받게 됩니다.
+When the created mail group receives a mail to its address, the members of the group will also receive the mail as Bcc. When the recipient replies to the mail, the members of the group receive the mail together.
 
-### 자체 메일 주소 연동하기 (MX레코드 설정)
-Dooray! Mail 사용 시, Dooray!에서 제공하는 메일 주소 (도메인.dooray.com)가 아닌, 자체 메일 주소를 사용하고자 할 경우 자체 도메인을 추가할 수 있습니다. 현재는 dooray.com에서 ‘새로운 조직 만들기’ 단계에서 도메인 입력 란 바로 아래 있는 [자체 도메인 추가] 버튼을 클릭하면 자체 도메인 추가를 위한 화면이 제공됩니다. 자체 도메인 추가는 현재 조직 만들기 단계에서만 할 수 있으므로, 이미 조직을 만든 이후라면 따로 dooray@nhn.com으로 문의주세요.
+### Link My Own Mail Address (MX Record Setting)
+Dooray! When using Dooray! Mail, you can add your own domain to use as your own mail address not the mail address provided by Dooray! (domain.dooray.com). Currently, during the 'Create New Organization' step in dooray.com, if you click the [Add My Own Domain] button just under the domain input field, the screen for adding your own domain will be displayed. You can add your own domain in the step of creating a new organization only. If you have created an organization, please contact us at dooray@nhn.com.
 
-#### MX레코드 및 SPF레코드 설정 안내 
-dooray.com에서 "무료 체험" 메뉴를 누른 후, 새로운 조직 만들기 페이지에서 도메인을 입력할 때 자체 메일 주소 설정을 바로 할 수 있습니다. 
+#### MX Record and SPF Record Settings 
+Click the 'Free Trial' menu on dooray.com and then set your own mail address directly when entering your domain in the Create New Organization page. 
 
-1단계: 메일 주소로 사용할 도메인을 입력합니다. 
-- ‘새로운 조직 만들기’ 단계에서 도메인 입력
+Step 1: Enter the domain to be used as your mail address. 
+-  Enter the domain in the 'Create New Organization'.step
 
-2단계: 도메인을 구매 / 관리하는 사이트에 접속하여 DNS 설정에서 아래 정보로 MX레코드를 변경합니다.
-- MX레코드 (메일 서버 주소): aspmx1.dooray.com, 우선순위: 1 
+Step 2: Log in to the site where you can purchase or manage the domain and then change the MX record with the following information in DNS Settings.
+- MX Record (mail server address): aspmx1.dooray.com. ('.' must be added after 'com') 
+- Priority: 1 
 
-3단계: Dooray로 메일 발송, 수신 시 스팸으로 분류되지 않도록 SPF 레코드 등록이 필요합니다.
-- SPF 레코드 : _spf.dooray.com 
+Step 3: You must register the SPF record to prevent the domain from being classified as Spam when you send and receive mails via Dooray.
+- SPF Record: _spf.dooray.com  
 
-SPF 레코드는 발송 메일 서버 정보를 DNS에 공개 등록함으로써 수신자로 하여금 이메일에 표시된 발송자의 발송지 정보가 실제 메일 서버 정보와 일치하는지 확인할 수 있도록 하는 인증 기술입니다.사이트에 따라 SPF 레코드가 등록되어 있지 않은 경우 메일 수신을 거부하거나 스팸으로 분류하므로 SPF 레코드를 등록하는 것을 권장합니다.
+SPF record is an authentication method used for a recipient to check whether the information of a sender marked in the email is identical with the actual mail server information by registering the outgoing mail server information to the DNS publicly. Depending on the sites, SPF record might not be registered, in which case, mail reception is denied or the mail received is classified as Spam. Then It is recommended to register the SPF record to avoid mail reception failure.
 
-#### 조직을 이미 만든 후 자체 메일 주소 연동하기
-현재는 dooray.com에서 새로운 조직 만들기 단계에서만 자체 도메인 추가 화면을 제공하고 있어서 이미 조직을 만드신 이후라면, 아래 가이드대로 하신 이후에 dooray@nhn.com으로 메일을 주시면 절차대로 진행을 해드리고 있습니다.  
+#### Link my own mail address after creating an organization
+Now, the 'Add My Own Domain' screen is provided at only the step 'Create New Organization' in dooray.com. If you have already created an organization, please contact us at dooray@nhn.com via email and we will help you to solve the case.  
 
-1단계: 자체 도메인 주소를 두레이로 전달
-만약 사용 중인 자체 도메인이 있다면, MX레코드를 먼저 변경할 경우 저희 쪽에서 직접 메일 수신 준비를 하기 전까지 메일을 못받는 경우가 있습니다. 변경을 원할 때 자체 도메인 주소를 dooray@nhn.com으로 먼저 전달해주시면 저희가 처리 후 MX레코드 변경 안내를 메일로 보내드립니다. 
+Step 1: Send my own domain address to Dooray
+If you have your own domain in use and changed the MX record first, mail reception might fail until we prepare for receiving mails. If you need to change the MX record, please send your own domain address to dooray@nhn.com first. We will process this and send you an email notification about the completion of MX record change. 
 
-2단계: MX레코드 변경 
-도메인을 구매/관리하는 사이트에 접속하여 DNS설정에서 MX레코드를 변경합니다.
-- MX레코드 (메일 서버 주소) : aspmx1.dooray.com    우선순위 : 1
+Step 2: Change MX record 
+Log in to the site where you can purchase/manage the domain and then change the MX record in DNS Settings.
+- MX Record (Mail server address): aspmx1.dooray.com.    Priority: 1
 
-3단계: SPF 레코드 설정
-Dooray! 에서 메일 발송 시, 수신 측 스팸 정책에 따라 SPF 레코드 등록이 필요할 수 있으므로 SPF 레코드 설정이 필요할 경우 아래 정보로 SPF 레코드를 추가 합니다. SPF 레코드 등록 양식을 참고해주세요.
-- SPF 레코드 : _spf.dooray.com 
+Step 3: Set SPF record
+Dooray! When sending a mail from Dooray!, you might have to register the SPF record in compliance with the Spam policies of the recipient. If you need to set the SPF record, add the following information to the SPF record. Please see the SPF record registration form.
+- SPF Record: _spf.dooray.com 
 
-#### SPF 레코드 등록 양식 
-SPF 레코드는 DNS의 TXT 정보 영역에 등록하며 등록 양식은 아래와 같습니다.
+#### SPF Record Registration Form 
+Register the SPF record in the TXT information area of the DNS. Its registration form is as follows.
+(※ When fill out the following registration form, make sure not to insert any space between 'include:' and '_'! Also, do not leave any space after 'all'!)
 
-##### SPF 레코드를 신규 등록하는 경우 등록 양식
+##### SPF Record Registration Form for New SPF Record
 - v=spf1 include:_spf.dooray.com ~all
-- 조회 예시
+- Lookup Example
 example.com    text = "v=spf1 include:_spf.dooray.com ~all"
 
-##### 기존에 등록되어 있는 SPF 레코드가 있는 경우 등록 양식
--  기존에 등록되어 있는 SPF 레코드가 IP 일 경우
+##### SPF Record Registration Form for Existing SPF Record
+-  SPF Record Registration Form when the Existing SPF Record is IP
 	- v=spf1 ip4:1.2.3.4 include:_spf.dooray.com ~all
-	- 조회 예시
+	- Lookup Example
 	example.com    text = "v=spf1 ip4:1.2.3.4 include:_spf.dooray.com ~all"
--  기존에 등록되어 있는 SPF 레코드가 도메인 형태 일 경우
+-  SPF Record Registration Form when the Existing SPF Record is Domain
 	- v=spf1 include:example.spf.com include:_spf.dooray.com ~all
-	- 조회 예시 
+	- Lookup Example 
 	example.com    text = "v=spf1 include:example.spf.com include:_spf.dooray.com ~all"
-	- SPF 레코드가 여러 개일 경우 위와 같이 해당 정보들을 한 줄에 모두 표시하여야 합니다. 
+	- If you have more than one SPF record, list all information in one line as shown above. 
 
-##### DNS TXT 정보를 확인하는 방법은 아래와 같습니다.
-- nslookup -q=txt 도메인 명
-- dig txt 도메인명
-- 인터넷에서 DNS 정보 조회 서비스 제공 사이트 
+##### Example of DNS setting in 'Gabia,' one of the sites where domains are purchased and managed  
+![MX record](http://static.toastoven.net/prod_dooray_mail/10_mail_mxRecord.png)
+<center>[Figure]Gabia DNS setting example</center>  
 
-### IMAP을 이용한 Outlook 메일 이전 가이드
-Outlook에 설정한 기존 메일을 내보내기 한 후, Dooray! 메일 계정으로 메일 가져오기를 합니다.    
+##### Check the DNS TXT information as follows:
+- nslookup -q=txt domain name
+- dig txt domain name
+- Site which provides the DNS lookup service on Internet 
 
-#### Outlook에서 Dooray! IMAP 설정 추가  
-Outlook 파일 메뉴를 선택해 계정 정보에서 계정 추가 버튼을 클릭합니다.   
+### Guide of Transferring Outlook Mail using IMAP
+After exporting your mails from Outlook, import the mails to Dooray! Mail account.    
+
+#### Add Dooray! IMAP Settings in Outlook  
+Select the Outlook Files menu and click the Add Account button on Account Info.   
 
 ![Outlook01](http://static.toastoven.net/prod_dooray_mail/01_mail_outlook01.png)
-<center>[그림]Outlook 메일 파일 메뉴 선택</center>            
+<center>[Figure]Selecting File menu in Outlook mail</center>            
 
 ![Outlook02](http://static.toastoven.net/prod_dooray_mail/02_mail_outlook_addaccout2.png)
-<center>[그림]Outlook 메일 계정 추가</center>        
+<center>[Figure ]Adding an Outlook mail account</center>        
 
-- 수동 설정 또는 추가 서버 유형을 선택합니다. 
-- 서비스 선택: POP 또는 IMAP 선택합니다. 
-- POP 및 IMAP 계정 설정 창에서 Dooray! 메일의 IMAP 설정 정보를 입력합니다. 
-- Dooray! 메인 설정 > 메일 > IMAP 설정 안내의 아이디, 비밀번호 정보를 아웃룩 계정 설정에 입력합니다.
-- 주의: 아웃룩 IMAP 로그온 정보의 암호는 Dooray! IMAP 설정의 비밀번호를 복사해서 입력해야 합니다. 
+- Select 'Manual setup or additional server type'. 
+- Select service: Select POP or IMAP. 
+- In the POP and IMAP Account Settings window, enter the IMAP setting information of Dooray! Mail. 
+- Dooray! Go to Main Settings > Mail > IMAP Setup Assistant and enter the ID and password in the Outlook Account Setup.
+- Caution: The password of Outlook IMAP logon information must be entered by copying the password of Dooray! IMAP setup. 
+	
+![Outlook03](http://static.toastoven.net/prod_dooray_mail/03_mail_outlook_imap2.png)
+<center>[Figure ]Outlook mail account settings</center>        
 
 ![Outlook04](http://static.toastoven.net/prod_dooray_mail/04_mail_dooray_imap.png)
-<center>[그림]Dooray! 메일 IMAP 설정 정보 확인</center>      
+<center>[Figure]Checking IMAP Settings Info of Dooray! Mail</center>        
 
-![Outlook03](http://static.toastoven.net/prod_dooray_mail/03_mail_outlook_imap2.png)
-<center>[그림]Outlook 메일 계정 설정</center>         
-
-아웃룩 POP 및 IMAP 계정 설정 창 하단에 있는 기타 설정 클릭합니다. 
+Click the More Settings button at the bottom of the Outlook POP and IMAP Account Settings window. 
 
 ![Outlook05](http://static.toastoven.net/prod_dooray_mail/05_mail_outlook_imap_etc.png)
-<center>[그림]Outlook 메일 기타 설정</center>       
+<center>[Figure ]More Settings in Outlook Mail</center>       
 
-- 보내는 메일 서버 탭: 보내는 메일 서버 (SMTP) 인증이 필요합니다.  
+- Outgoing Server tab: Your outgoing server (SMTP) requires authentication.  
 
 ![Outlook06](http://static.toastoven.net/prod_dooray_mail/06_mail_outlook_smtp.png)
-<center>[그림]보내는 메일 서버 설정</center>       
+<center>[Figure]Outgoing Server Settings</center>       
 
-- 고급 탭 클릭해서 받는 메일 서버, 보내는 메일 서버 포트 번호 입력합니다.  
+- Click the Advanced tab to enter the port numbers of incoming and outgoing mail servers.  
   - IMAP: 993, SMTP: 465
-  - 암호화된 다음 연결 방식: SSL
+  - The encrypted connection method: SSL
 
 ![Outlook07](http://static.toastoven.net/prod_dooray_mail/07_mail_port.png)
-<center>[그림]고급 설정</center>    
+<center>[Figure]Advanced</center>    
 
-POP 및 IMAP 계정 설정창 우측 상단에 계정 설정 테스트를 클릭하여 테스트 진행합니다. 
-받는 메일 서버에 로그온, 테스트 전자 메일 메시지 보내기를 해서 완료되면 IMAP 설정은 완료된 것입니다.  
+Click the Test Account Settings button at the top right of POP and IMAP Account Settings window to proceed. 
+If you are able to successfully log on to the incoming mail server and send an email message, IMAP settings are completed.  
 
-#### Outlook에 설정한 기존 메일 내보내기  
-Outlook 에서 '>' 메뉴를 클릭해보면, Dooray! 메일 계정이 추가된 것을 확인할 수 있습니다. 
+#### Export existing mails from Outlook  
+In Outlook, click the '>' menu and you can see that Dooray! Mail account has been added. 
 
 ![Outlook08](http://static.toastoven.net/prod_dooray_mail/08_mail_more.png)
-<center>[그림]Outlook 계정 추가 확인 </center>   
+<center>[Figure]Checking Added Outlook Account </center>   
 
-Outlook 에서 파일 메뉴 선택 > 열기 및 내보내기 > 가져오기/내보내기 메뉴를 선택합니다.
-Outlook 에 있는 메일을 내보내기 한 후, Dooray!로 가져오기를 하면 됩니다.
+In Outlook, select File menu > Open & Export > Import/Export menu.
+Export mails from Outlook and then import the mails to Dooray!.
 
 ![Outlook09](http://static.toastoven.net/prod_dooray_mail/09_mail_import_export.png)
-<center>[그림]Outlook 가져오기/내보내기 마법사 </center>   
+<center>[Figure]Outlook Import/Export Wizard </center>   
 
-- 만들 파일 형식: Outlook 데이터 파일 (.pst)
-- 내보낼 폴더 선택: 기존에 사용하던 메일 폴더 선택
-- 내보낸 파일 저장 형식: backup.pst 로 저장하기
+- Format of file to create: Outlook data file (.pst)
+- Select a folder to export from: Select an existing mail folder that has been used
+- Save exported file as: Save as backup.pst
 
-#### 내보내기한 파일을 Dooray! 메일로 가져오기  
-Outlook 에서 파일 메뉴 선택 > 열기 및 내보내기 > 가져오기/내보내기 메뉴를 다시 선택합니다. 
+#### Import the exported files to Dooray! Mail  
+In Outlook, select File > Open & Export > Import/Export menu again. 
 
-- 수행할 작업 선택: 가져오기 - 다른 프로그램이나 파일
-- 가져올 파일 형식 선택: Outlook 데이터 파일(.pst)
-- 가져올 파일: 내보내기를 통해 저장해둔 .pst 파일 선택
-- 가져올 폴더 선택: Outlook 데이터 파일
-- 같은 폴더로 항목 가져오기: Dooray! 메일 계정 선택
+- Select an action to perform: Import - other program or file
+- Select the type of file to import: Outlook data file (.pst)
+- File to import: Select the .pst file saved through Export
+- Select a folder to import from: Outlook data file
+- Import items into the same folder: Dooray! Select Dooray! Mail account
   
-이 과정을 거치면 메일 가져오기가 완료됩니다.
+After this, mail import is completed.
 
-### 스마트폰의 기본 메일로 Dooray! 메일을 연동하기
+### Link the Dooray! Mail to the default mail of your smartphone
 
-#### 아이폰
+#### iPhone:
 
-1. 먼저 Dooray!의 설정 메뉴에서 [메일> imap]을 눌러 수신 서버, 발신 서버, 아이디, 비밀번호를 확인하세요.
+1. First, click [Mail > imap] in Dooray! Settings and check the Incoming Server, Outgoing Server, ID, and Password.
 ![](http://static.toastoven.net/prod_dooray_mail/phone1.png)
 
-2. 그 후 단말기를 들고 아래와 같이 진행해 주세요.
+2. Hold the device and proceed as below.
 
-3. 단말기의 설정에서 [계정 및 암호]를 선택합니다.
+3. On Settings of the device, select [Account and Password].
 
-4. 계정 목록의 하단에 [계정 추가] 버튼을 선택합니다.
+4. Select the [Add Account] button at the bottom of the account list.
 ![](http://static.toastoven.net/prod_dooray_mail/phone2.png)
 
-5. 계정 추가에서 [기타]를 선택합니다.
+5. In the Add Account screen, select [Other].
 ![](http://static.toastoven.net/prod_dooray_mail/phone3.png)
 
-6. Mail 계정 추가
+6. Add the Mail account.
 ![](http://static.toastoven.net/prod_dooray_mail/phone4.png)
 
-7. Dooray!의 설정에서 확인한 아이디 / 비밀번호 / 수신서버 / 발신서버를 차례대로 넣어줍니다.
-(Dooray! 서비스에서 로그인 시에 사용하는 비밀번호가 아닌, Dooray!의 설정에서 확인한 비밀번호를 넣어주셔야 합니다.)
+7. Input the ID/Password/Incoming Server/Outgoing Server you have checked in Dooray! Settings in the order shown here.
+(Dooray! The password should not be the one you use for login to the service but the one you have checked in Dooray! Settings.)
 ![](http://static.toastoven.net/prod_dooray_mail/phone5.png)
 
-#### 안드로이드
+#### Android
 
-1. 먼저 Dooray!의 설정 메뉴에서 [메일> imap]을 눌러 수신 서버, 발신 서버, 아이디, 비밀번호를 확인하세요.
+1. First, click [Mail > imap] in Dooray! Settings and check the Incoming Server, Outgoing Server, ID, and Password.
 ![](http://static.toastoven.net/prod_dooray_mail/phone6.png)
 
-2. 그 후 단말기를 들고 아래와 같이 진행해 주세요.
+2. Hold the device and proceed as below.
 
-3. 단말기의 설정에서 [사용자 및 계정]을 선택합니다.
+3. In Settings of the device, select [User and Account].
 
-4. [계정 추가]를 선택합니다.
+4. Select [Add Account].
 ![](http://static.toastoven.net/prod_dooray_mail/phone7.png)
 
-5. 개인용(IMAP)을 선택합니다.
+5. Select Personal (IMAP).
 ![](http://static.toastoven.net/prod_dooray_mail/phone8.png)
 
 
-6. 이메일 / 비밀번호 / 수신 서버 / 발신 서버를 차례대로 입력합니다.
-(Dooray! 서비스에서 로그인 시에 사용하는 비밀번호가 아닌, Dooray!의 설정에서 확인한 비밀번호를 넣어주셔야 합니다.)
+6. Enter the ID/Password/Incoming Server/Outgoing one by one.
+(Dooray! The password should not be the one you use for login to the service but the one you have checked in Dooray! Settings.)
 ![](http://static.toastoven.net/prod_dooray_mail/phone9.png)
 
-안드로이드 단말기는 기기에 따라 설정 방법에 차이가 있을 수 있습니다.
+How to set may vary depending on your Android device model.
