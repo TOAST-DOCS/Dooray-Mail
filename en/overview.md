@@ -1,14 +1,14 @@
-## Dooray! > Mail > Overview
-## Mail 개요
-회사(조직)의 도메인으로 독립된 메일주소를 만들어 사용할 수 있습니다.
-강화된 보안으로 보다 안전하고, 자동화된 관리 기능으로 보다 쉬운 메일 관리가 가능합니다.
+﻿## Dooray! > Mail > Overview
+## Mail Overview
+You can create and use an independent email address for the company (organization) domain.
+With more consolidated security and automated management features, you can manage mails easier.
 
-## 서비스 설명
-- 자체 도메인으로 메일주소 사용 가능합니다.
-- 수신 메일을 다양한 자동 분류 룰을 통해 쉽게 분류하고 관리할 수 있습니다.
+## Service Description
+- Use email addresses for your own domain.
+- Sort and manage received mails with various automatic classification rules.
 
-## 특장점
-- 자동 분류 룰을 통해 메일을 자동으로 특정 프로젝트의 업무로 등록하고 담당자를 할당할 수 있습니다.
-- 함께 사용하는 도메인으로 보낸 메일에 대해서는 ‘발송 취소’ 와 같은 특화된 기능까지 이용할 수 있습니다.
-- IMAP 연결 시 패스워드가 별도로 관리되어 휴대폰이나 디바이스 분실 시 보다 안전하게 관리할 수 있습니다.
-- 메일 송/수신 및 메일의 모든 데이터가 암호화되어 보다 안심하고 업무 메일을 주고 받을 수 있습니다.
+## Benefits
+- Register emails as jobs of a specific project and assign a person in charge using automatical classification rules.
+- Use specialized features such as 'Cancel Transfer' for the mails sent to the same domain.
+- Manage mails in a secured way even when mobile phones or devices are lost as the password is separately managed for IMAP connection.
+- Send and receive work emails without worries as all email data are encrypted for mail transfer.
