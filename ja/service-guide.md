@@ -1,7 +1,6 @@
 ## Dooray! > Mail > サービスガイド
 
 ### メール送信 
-
 #### 差出人の名前とアドレス
 差出人の名前とアドレスを変更して、メールを送信することができます。「設定 > メール > 書込」から、最大10個まで追加できます。追加されたアドレスと名前は、メール作成画面から自由に選択してメールを送信することができます。
 ![Outlook07](http://static.toastoven.net/prod_dooray_mail/07_mail_port.png)
@@ -310,7 +309,6 @@ Outlookのファイルメニューから「開く/エクスポート > インポ
 ### スマートフォンの基本メールにDoorayメールを連動させる
 
 #### iPhone
-
 1. まず、Doorayの「設定 > メール > IMAP」から、受信サーバー、送信サーバー、ID、パスワードを確認してください。
 ![](http://static.toastoven.net/prod_dooray_mail/phone1.png)
 
@@ -330,7 +328,6 @@ Outlookのファイルメニューから「開く/エクスポート > インポ
 ![](http://static.toastoven.net/prod_dooray_mail/phone5.png)
 
 #### Android
-
 1. まず、Doorayの「設定 > メール > IMAP」から、受信サーバー、送信サーバー、ID、パスワードを確認してください。
 ![](http://static.toastoven.net/prod_dooray_mail/phone6.png)
 
