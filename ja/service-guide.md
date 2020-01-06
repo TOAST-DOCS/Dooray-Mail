@@ -3,7 +3,7 @@
 ### メール送信 
 #### 差出人の名前とアドレス
 差出人の名前とアドレスを変更して、メールを送信することができます。「設定 > メール > 書込」から、最大10個まで追加できます。追加されたアドレスと名前は、メール作成画面から自由に選択してメールを送信することができます。
-![Outlook07](http://static.toastoven.net/prod_dooray_mail/07_mail_port.png)
+![Outlook07](http://static.toastoven.net/prod_dooray_mail/Mail_01_jp.png)
 <center>[図1]</center> 
 
 #### 個別送信
@@ -19,7 +19,7 @@ BCCに送信したメールも送信メールボックスまたは本文から�
 メール作成画面から「+セキュリティ」ボタンをクリックして、公開/社外秘/機密を選択します。
 「社外秘」「機密」では、メールの転送禁止、自動削除とその期間を選択します。自動削除(基本30日)は、指定した期間が経過すると、メールが自動で削除されます。
 セキュリティメールでは、受信先に外部アカウントが含まれていると送信ができません。外部アカウントを受信先から削除するとメールが送信できます。また、セキュリティメールはDoorayプロジェクトのタスクには登録できません。
-![Outlook07](http://static.toastoven.net/prod_dooray_mail/07_mail_port.png)
+![Outlook07](http://static.toastoven.net/prod_dooray_mail/Mail_02_jp.png)
 <center>[図2]</center> 
 
 #### 添付ファイル
@@ -47,42 +47,42 @@ BCCに送信したメールも送信メールボックスまたは本文から�
 
 #### メール既読表示
 メールボックスにある未読メールを一括で「既読」表示にすることができます。メールボックスにマウスオーバーして右側に表示されるアイコンをクリックし、「すべて既読」を選択します。
-![Outlook07](http://static.toastoven.net/prod_dooray_mail/07_mail_port.png)
+![Outlook07](http://static.toastoven.net/prod_dooray_mail/Mail_03_jp.png)
 <center>[図3]</center>
 
 ### 送信確認/送信取消
 自分が送信したメールを受信者が読んだか確認したい場合、または送信したメールをキャンセルしたい場合は、送信メールボックスのリストから確認できます。
-![Outlook07](http://static.toastoven.net/prod_dooray_mail/07_mail_port.png)
+![Outlook07](http://static.toastoven.net/prod_dooray_mail/Mail_04_jp.png)
 <center>[図4]</center>
 受信者のそばにある「2/3名既読▼」などから簡単に送信確認ができます。また、該当の領域をクリックすると、受信者別に受信状態と既読時間を確認することができます。ただし、テキストモードとSMTPによるメール送信では、送信確認ができない場合があります。
 同じテナント(会社/組職)ユーザーに送信したメールに対しては、送信確認情報の右にある「送信取消」をクリックして送信したメールを回収することができます。(外部メールアカウントに送信されたメールは回収できません。)受信者が未読の状態で、送信後24時間以内に限り回収可能で、SMTPで送信されたメールは回収できません。
 
 ### 受信メールをタスクに登録 
 メールの内容をDoorayプロジェクトのタスクとして登録することができます。メール本文の上段メニューから「タスク登録」を選択します。(ただし、社外秘/機密に設定されたセキュリティメールはタスク登録不可)
-![Outlook07](http://static.toastoven.net/prod_dooray_mail/07_mail_port.png)
+![Outlook07](http://static.toastoven.net/prod_dooray_mail/Mail_05_jp.png)
 <center>[図5]</center>
 外部から届いたメールをタスクとして繰り返し登録する必要がある場合は、「自動振り分け」機能を活用しましょう。タイトル、送信者、受信者、CCなどの基準で特定のプロジェクトに担当者を指定して自動で登録することができます。
-![Outlook07](http://static.toastoven.net/prod_dooray_mail/07_mail_port.png)
+![Outlook07](http://static.toastoven.net/prod_dooray_mail/Mail_06_jp.png)
 <center>[図6]</center>
 
 ### アドレス帳に追加
 受信したメールに含まれるメールアドレスを簡単にアドレス帳に追加できます。
 メールアドレスをクリックすると、選択したユーザーのプロフィールが表示されます。プロフィール右下の「+アドレス帳」 をクリックしてアドレス帳に保存することができます。アドレス帳に一度追加しておけば、メールアドレスをいちいち入力しなくても、メール作成画面で自動補完され、効率よくメールを作成することができます。 
-![Outlook07](http://static.toastoven.net/prod_dooray_mail/07_mail_port.png)
+![Outlook07](http://static.toastoven.net/prod_dooray_mail/Mail_07_jp.png)
 <center>[図7]</center>
  
 ### アドレス帳グループにメール送信 
 メール作成時、アドレス帳にあるグループに対してメールを一斉送信することができます。
 「アドレス帳 > 私の連絡先」メニューに登録されているグループ名を、メール作成画面の宛先、またはCCなどに入力すると、対象のグループに対してメールを送信できます。 (ただし、「アドレス帳 > 組職図」にあるグループは自動補完されず、メール作成画面「組職図」メニューから選択することができます。- 次の説明を参照)
-![Outlook07](http://static.toastoven.net/prod_dooray_mail/07_mail_port.png)
+![Outlook07](http://static.toastoven.net/prod_dooray_mail/Mail_08_jp.png)
 <center>[図8]</center>
 
 ### 組職図を活用したメール送信
 組職図を「使用」で設定している場合、「組職図」メニューをクリックして組職内のメンバー/部署を選択し、メールを送信することができます。
-![Outlook07](http://static.toastoven.net/prod_dooray_mail/07_mail_port.png)
+![Outlook07](http://static.toastoven.net/prod_dooray_mail/Mail_09_jp.png)
 <center>[図9]</center>
 組職図設定は、組職管理者が「組職管理 > 部署/メンバー管理 > 組職図管理」から設定できます。
-![Outlook07](http://static.toastoven.net/prod_dooray_mail/07_mail_port.png)
+![Outlook07](http://static.toastoven.net/prod_dooray_mail/Mail_10_jp.png)
 <center>[図10]</center>
 
 ### メール検索
@@ -91,7 +91,7 @@ BCCに送信したメールも送信メールボックスまたは本文から�
 
 ### メール設定
 Dooray右上の設定アイコンをクリックすると、設定画面が起動します。「設定> メール」を選択します。
-![Outlook07](http://static.toastoven.net/prod_dooray_mail/07_mail_port.png)
+![Outlook07](http://static.toastoven.net/prod_dooray_mail/Mail_11_jp.png)
 <center>[図11]</center>
 
 #### 読込 > リスト/本文表示
@@ -153,11 +153,11 @@ IMAPはメールサーバーにアクセスして電子メールを読むため�
 
 #### 署名設定 
 「設定 > メール > 署名」から設定できます。作成した署名を新規メール作成時に自動挿入したり、転送、返信(全員に返信)時に自動で表示させることができます。署名は最大3個まで追加でき、基本署名も指定することができます。
-![Outlook07](http://static.toastoven.net/prod_dooray_mail/07_mail_port.png)
-<center>[図12]</center>
+![Outlook07](http://static.toastoven.net/prod_dooray_mail/Mail_12_jp.png)
+<center>[図12]組職署名設定</center>
 
-![Outlook07](http://static.toastoven.net/prod_dooray_mail/07_mail_port.png)
-<center>[図13]</center>
+![Outlook07](http://static.toastoven.net/prod_dooray_mail/Mail_13_jp.png)
+<center>[図13]メール署名設定</center>
 
 #### 個々のメンバーが希望する画像も、画像リンクを挿入する方法で個別に設定することができます。
 1) 署名に利用したい画像を (必ず公開された画像を指定) ブログ、ウェプページなどにアップロード
@@ -176,11 +176,11 @@ IMAPはメールサーバーにアクセスして電子メールを読むため�
 インポートは下記の場所からご利用いただけます。
 
 1.受信メール/送信メール/保管メール、または作成したメールボックスのメニューから「インポート」をクリック	
-![Outlook07](http://static.toastoven.net/prod_dooray_mail/07_mail_port.png)
+![Outlook07](http://static.toastoven.net/prod_dooray_mail/Mail_14_jp.png)
 <center>[図14]</center>
 
 2.「設定 > メール> インポート > メールインポート」
-![Outlook07](http://static.toastoven.net/prod_dooray_mail/07_mail_port.png)
+![Outlook07](http://static.toastoven.net/prod_dooray_mail/Mail_15_jp.png)
 <center>[図15]</center>
 
 ### メール翻訳機能 
@@ -190,7 +190,7 @@ IMAPはメールサーバーにアクセスして電子メールを読むため�
 
 ### メールグループ作成
 組職管理者が複数のメールアドレスを1つのメールグループにまとめメールアカウントを作成することができます。メールグループの作成機能は、現在MXレコードが設定された対象に限定して提供しており、組職管理者のみ作成することができます。「組職管理 > サービス管理 > メールグループ」メニューを選択してグループを追加できます。
-![Outlook07](http://static.toastoven.net/prod_dooray_mail/07_mail_port.png)
+![Outlook07](http://static.toastoven.net/prod_dooray_mail/Mail_16_jp.png)
 <center>[図16]</center>
 作成したメールグループアドレスでメールを受信すると、グループに含まれるメンバーはBCCでメールを受信します。受信者が該当のメールに返信すると、メールグループのメンバーも一緒に返信されたメールを受信します。
 
@@ -200,8 +200,8 @@ Doorayで提供するメールアドレス(ドメイン.dooray.com)ではない�
 1. dooray.com「新しい組織の作成」で、ドメイン入力欄から「独自ドメイン追加」ボタンをクリックして独自ドメインを追加してください。
 2. すでに組職をお持ちの場合は、テナント管理者が「組職管理 > テナント設定」から「独自メールドメイン追加」ボタンをクリックして独自ドメインを追加することができます。(下図参照)
 
-![Outlook07](http://static.toastoven.net/prod_dooray_mail/07_mail_port.png)
-<center>[図17]</center>
+![Outlook07](http://static.toastoven.net/prod_dooray_mail/Mail_17_jp.png)
+<center>[図17]独自ドメイン追加</center>
 
 独自ドメインを追加する際に必要なMXレコード/SPFレコードの設定は、下記ガイドを参考に進行してください。
 
@@ -246,11 +246,11 @@ Outlookにあるメールをエクスポートした後、Doorayメールアカ�
 OutlookにDooray! IMAP設定を追加
 Outlookのファイルメニューを選択し、アカウント情報で「アカウントの追加」をクリックします。
 
-![Outlook01](http://static.toastoven.net/prod_dooray_mail/01_mail_outlook01.png)
-<center>[図18] Outlookファイルメニュー選択</center>            
+![Outlook01](http://static.toastoven.net/prod_dooray_mail/Mail_18_jp.png)
+<center>[図18]Outlookファイルメニュー選択</center>            
 
-![Outlook02](http://static.toastoven.net/prod_dooray_mail/02_mail_outlook_addaccout2.png)
-<center>[図19] Outlookアカウント追加</center>        
+![Outlook02](http://static.toastoven.net/prod_dooray_mail/Mail_19_jp.png)
+<center>[図19]Outlookアカウント追加</center>        
 
 - 手動設定または追加サーバータイプを選択します。
 - サービス選択：POPまたはIMAPを選択します。
@@ -258,28 +258,28 @@ Outlookのファイルメニューを選択し、アカウント情報で「ア�
 - Dooray「設定 > メール > IMAP」設定ガイドにあるID、パスワード情報を、Outlookのアカウント設定に入力します。(下図参照)
 - 注意：Outlook IMAPログイン情報のパスワードは、Dooray IMAP設定ガイドのパスワードをコピーして入力しなければなりません。(下図面参照)
 	
-![Outlook04](http://static.toastoven.net/prod_dooray_mail/04_mail_dooray_imap.png)
-<center>[図20] DoorayメールIMAP設定ガイド</center>   
+![Outlook04](http://static.toastoven.net/prod_dooray_mail/Mail_20_jp.png)
+<center>[図20]DoorayメールIMAP設定ガイド</center>   
 
-![Outlook03](http://static.toastoven.net/prod_dooray_mail/03_mail_outlook_imap2.png)
-<center>[図21] Outlookアカウント設定</center>             
+![Outlook03](http://static.toastoven.net/prod_dooray_mail/Mail_21_jp.png)
+<center>[図21]Outlookアカウント設定</center>             
 
 OutlookのPOPとIMAPアカウント設定画面から「詳細設定」をクリックします。
 
-![Outlook05](http://static.toastoven.net/prod_dooray_mail/05_mail_outlook_imap_etc.png)
-<center>[図22] Outlook詳細設定</center>       
+![Outlook05](http://static.toastoven.net/prod_dooray_mail/Mail_22_jp.png)
+<center>[図22]Outlook詳細設定</center>       
 
 - 送信サーバー：送信サーバー(SMTP)認証が必要です。 
 
-![Outlook06](http://static.toastoven.net/prod_dooray_mail/06_mail_outlook_smtp.png)
-<center>[図23] 送信サーバー設定</center>       
+![Outlook06](http://static.toastoven.net/prod_dooray_mail/Mail_23_jp.png)
+<center>[図23]送信サーバー設定</center>       
 
 - 詳細設定：受信サーバー、送信サーバーのポート番号を入力します。  
   - IMAP: 993, SMTP: 465
   - 使用する暗号化接続の種類：SSL
 
-![Outlook07](http://static.toastoven.net/prod_dooray_mail/07_mail_port.png)
-<center>[図24] 詳細設定</center>    
+![Outlook07](http://static.toastoven.net/prod_dooray_mail/Mail_24_jp.png)
+<center>[図24]詳細設定</center>    
 
 POPとIMAPアカウント設定画面の右上にあるアカウント設定テストをクリックし、テストを行います。
 受信メールサーバーへのログインと、電子メールのテストメッセージ送信が完了すれば、IMAP設定は完了です。 
@@ -289,8 +289,8 @@ Outlookで「>」メニューをクリックすると、Doorayメールアカウ
 Outlookでファイルメニューから「開く/エクスポート > インポート/エクスポート」を選択します。
 Outlook にあるメールをエクスポートし、Doorayにインポートします。
 
-![Outlook08](http://static.toastoven.net/prod_dooray_mail/08_mail_more.png)
-<center>[図25] Outlookインポート/エクスポート ウィザード</center>   
+![Outlook08](http://static.toastoven.net/prod_dooray_mail/Mail_25_jp.png)
+<center>[図25]Outlookインポート/エクスポート ウィザード</center>   
 
 - ファイル形式：Outlookデータファイル(.pst)
 - エクスポートするフォルダを選択：従来使用していたメールフォルダを選択
@@ -310,38 +310,44 @@ Outlookのファイルメニューから「開く/エクスポート > インポ
 
 #### iPhone
 1. まず、Doorayの「設定 > メール > IMAP」から、受信サーバー、送信サーバー、ID、パスワードを確認してください。
-![](http://static.toastoven.net/prod_dooray_mail/phone1.png)
+![](http://static.toastoven.net/prod_dooray_mail/Mail_26_jp.png)
+<center>[図26]</center>   
 
 2. 次に端末で次のように進行してください。
 3. 端末設定で「パスワードとアカウント」を選択します。
 4. 「アカウントを追加」を選択します
-
-![](http://static.toastoven.net/prod_dooray_mail/phone2.png)
+![](http://static.toastoven.net/prod_dooray_mail/Mail_27_jp.png)
+<center>[図27]</center> 
 
 5. 「その他」を選択します。
-![](http://static.toastoven.net/prod_dooray_mail/phone3.png)
+![](http://static.toastoven.net/prod_dooray_mail/Mail_28_jp.png)
+<center>[図28]</center> 
 
 6. 「メールアカウントを追加」を選択します。
-![](http://static.toastoven.net/prod_dooray_mail/phone4.png)
+![](http://static.toastoven.net/prod_dooray_mail/Mail_29_jp.png)
+<center>[図29]</center> 
 
 7. Dooray設定画面で確認したID/パスワード/受信サーバー/送信サーバーを入力します。
-![](http://static.toastoven.net/prod_dooray_mail/phone5.png)
+![](http://static.toastoven.net/prod_dooray_mail/Mail_30_jp.png)
+<center>[図30]</center> 
 
 #### Android
 1. まず、Doorayの「設定 > メール > IMAP」から、受信サーバー、送信サーバー、ID、パスワードを確認してください。
-![](http://static.toastoven.net/prod_dooray_mail/phone6.png)
+![](http://static.toastoven.net/prod_dooray_mail/Mail_31_jp.png)
+<center>[図31]</center> 
 
 2. 次に端末で次のように進行してください。
 3. 端末設定で「設定 > アカウント」を選択します。
 4. 「アカウントを追加」を選択します。
-
-![](http://static.toastoven.net/prod_dooray_mail/phone7.png)
+![](http://static.toastoven.net/prod_dooray_mail/Mail_32_jp.png)
+<center>[図32]</center> 
 
 5. 「個人用(IMAP)」を選択します。
-![](http://static.toastoven.net/prod_dooray_mail/phone8.png)
-
+![](http://static.toastoven.net/prod_dooray_mail/Mail_33_jp.png)
+<center>[図33]</center>
 
 6. Dooray設定画面で確認したID、パスワード、受信サーバー、送信サーバーを入力します。
-![](http://static.toastoven.net/prod_dooray_mail/phone9.png)
+![](http://static.toastoven.net/prod_dooray_mail/Mail_34_jp.png)
+<center>[図34]</center>
 
 Android端末によって設定方法に若干の違いがあります。
