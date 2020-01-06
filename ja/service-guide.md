@@ -365,17 +365,17 @@ Outlookのファイルメニューから「開く/エクスポート > インポ
 3. 端末設定で「設定 > アカウント」を選択します。
 4. 「アカウントを追加」を選択します。
 
-![](http://static.toastoven.net/prod_dooray_mail/Mail_32_jp.png)
+![](http://static.toastoven.net/prod_dooray_mail/Mail_32_jp.jpg)
 <center>[図32]</center> 
 
 5. 「個人用(IMAP)」を選択します。
 
-![](http://static.toastoven.net/prod_dooray_mail/Mail_33_jp.png)
+![](http://static.toastoven.net/prod_dooray_mail/Mail_33_jp.jpg)
 <center>[図33]</center>
 
 6. Dooray設定画面で確認したID、パスワード、受信サーバー、送信サーバーを入力します。
 
-![](http://static.toastoven.net/prod_dooray_mail/Mail_34_jp.png)
+![](http://static.toastoven.net/prod_dooray_mail/Mail_34_jp.jpg)
 <center>[図34]</center>
 
 Android端末によって設定方法に若干の違いがあります。
