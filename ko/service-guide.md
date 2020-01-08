@@ -72,7 +72,7 @@
 
 ### 주소록 그룹으로 메일 발송
 메일 작성 시 주소록에 있는 그룹으로 메일을 발송할 수 있습니다. 
-[주소록 > 내 연락처] 메뉴에서 그룹을 만들고 등록된 그룹 이름을 메일 작성 시 받는 사람 또는 참조자에 등록된 그룹을 입력해 주세요. (단, [주소록 > 조직도]에 있는 그룹은 자동완성에 노출되지 않고, 메일 쓰기창 [조직도]메뉴를 통해 선택할 수 있습니다.- 아래 설명 참고)
+[주소록 > 내 연락처] 메뉴에서 그룹을 만들고 등록된 그룹 이름을 메일 작성 시 받는 사람 또는 참조자에 등록된 그룹을 입력해 주세요. (단, [주소록 > 조직도]에 있는 그룹은 자동완성에 노출되지 않고, 메일 쓰기창 [조직도]메뉴를 통해 선택할 수 있습니다.
 
 ![](http://static.toastoven.net/prod_dooray_mail/Mail_08_ko.png)
 
@@ -157,10 +157,10 @@ IMAP은 메일 서버에 접속해 메일을 읽기 위한 프로토콜로 여�
 
 #### 서명 만들기
 서명 이미지로 주로 사용되는 조직 로고를 테넌트 관리자가 대표로 조직관리 화면에서 업로드 해두면, 멤버는 서명을 만들 때 조직 로고를 선택해 서명을 만들 수 있습니다. 이미지 등록은 10개까지 가능합니다.  
-![](http://static.toastoven.net/prod_dooray_mail/phone1.png)
+![](http://static.toastoven.net/prod_dooray_mail/Mail_12_ko.png)
 조직 서명 설정
 
-![](http://static.toastoven.net/prod_dooray_mail/phone1.png)
+![](http://static.toastoven.net/prod_dooray_mail/Mail_13_ko.png)
 메일 서명 설정
 
 필요한 경우 멤버 개인이 원하는 이미지도 이미지 링크를 삽입하는 방식으로 넣을 수도 있습니다.  
@@ -180,10 +180,10 @@ IMAP은 메일 서버에 접속해 메일을 읽기 위한 프로토콜로 여�
 가져오기 기능은 아래 두 곳에서 이용할 수 있습니다.
 
 1. 받은 / 보낸 / 보관 메일함 또는 만든 메일함의 우측 버튼 클릭> '가져오기' 클릭
-![](http://static.toastoven.net/prod_dooray_mail/phone1.png)
+![](http://static.toastoven.net/prod_dooray_mail/Mail_14_ko.png)
 
 2.설정 > 메일> 가져오기 > '메일 가져오기' 버튼 클릭
-![](http://static.toastoven.net/prod_dooray_mail/phone1.png)
+![](http://static.toastoven.net/prod_dooray_mail/Mail_15_ko.png)
 
 순서대로 진행해 주시면 손쉽게 메일 가져오기가 완료됩니다.
 
@@ -194,7 +194,7 @@ IMAP은 메일 서버에 접속해 메일을 읽기 위한 프로토콜로 여�
 
 ### 메일 그룹(DL) 만들기 
 조직 관리자가 여러 개의 메일 주소를 하나의 메일 그룹으로 만들어 메일 계정을 생성할 수 있습니다.  메일 그룹 생성 기능은 현재는 MX 레코드가 설정된 대상들에 한해 서비스를 제공 중이며, 조직 관리자만 만들 수 있습니다. [조직 관리> 서비스 설정> 메일 그룹] 메뉴를 선택해 그룹을 추가할 수 있습니다.
-![](http://static.toastoven.net/prod_dooray_mail/phone1.png)
+![](http://static.toastoven.net/prod_dooray_mail/Mail_16_ko.png)
 생성한 메일 그룹 주소로 메일이 수신되는 경우, 그룹에 포함된 멤버들은 숨은 참조로 메일을 함께 받게 됩니다. 해당 메일에 수신자가 회신하면, 해당 그룹의 멤버들이 함께 메일을 받게 됩니다.
 
 ### 자체 메일 주소 연동하기 (MX레코드 설정)
@@ -203,7 +203,7 @@ Dooray!에서 제공하는 메일 주소 (도메인.dooray.com)가 아닌, 자�
 1. dooray.com에서 ‘새로운 조직 만들기’ 가입 단계에서 도메인 입력 란 바로 아래 있는 [자체 도메인 추가] 버튼을 클릭해 자체 도메인을 추가해 주세요.
 
 2. 이미 조직을 만드셨다면 테넌트 소유자 또는 테넌트 관리자가 [조직관리 > 테넌트 설정]에서  [자체 메일 도메인 추가] 버튼을 눌러 자체 도메인을 추가할 수 있습니다.(아래 화면 참고)
-![](http://static.toastoven.net/prod_dooray_mail/phone1.png)
+![](http://static.toastoven.net/prod_dooray_mail/Mail_17_ko.png)
 자체 도메인 추가
 
 자체 도메인 추가 시 MX레코드 및 SPF레코드 설정은 아래 안내를 참고해서 진행해주세요. 
