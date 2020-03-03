@@ -279,7 +279,8 @@ _autodiscover._tcp.nhn.com	service = 0 0 443 autoconfig.dooray.com.
 Authoritative answers can be found from:
 ```
 
-### 사용자 설정
+
+#### 사용자 설정
 IMAP 설정이 완료되었다면 아래와 같이 세팅할 수 있습니다. 
 
 
