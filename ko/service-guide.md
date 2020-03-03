@@ -251,7 +251,7 @@ example.com    text = "v=spf1 include:_spf.dooray.com ~all"
 - dig txt 도메인명
 - 인터넷에서 DNS 정보 조회 서비스 제공 사이트 
 
-### 자동설정 서버 사용 안내
+### 자동 설정 서버 사용 안내
 DNS 관리자가 SRV 레코드를 설정하여 주요 메일 클라이언트(Outlook, iPhone/iPad Mail, Mac Mail)의 IMAP/SMTP 설정을 간편하게 할 수 있습니다. 
 
 #### DNS SRV 레코드 설정
