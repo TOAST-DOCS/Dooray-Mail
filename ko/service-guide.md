@@ -137,10 +137,10 @@ IMAP, SMTP설정은 [설정> 메일> IMAP] 메뉴를 선택해 설정 안내를 
 #### IMAP 지원 클라이언트
 - Thunder Bird
 - Outlook
-   - 2016(MacOS X)
-   - 2016(Windows)
-   - 2013(Windows)
-   - 2010(Windows)
+    - 2016(MacOS X)
+    - 2016(Windows)
+    - 2013(Windows)
+    - 2010(Windows)
 - Windows10 Mail
 - Mac Mail
 - IPhone Mail
@@ -286,11 +286,12 @@ Authoritative answers can be found from:
 IMAP 설정이 완료되었다면 아래와 같이 세팅할 수 있습니다. 
 
 
-##### MacOS X, IOS
+##### MacOS X, iOS
 기기에서 다음의 링크로 접속하고 이메일을 입력 후 파일을 다운로드 받습니다.
 - 일반 기업 : https://autoconfig.dooray.com/
 - 공공 기관 : https://autoconfig.gov-dooray.com/
 ![](http://static.toastoven.net/prod_dooray_mail/Mail_21_ko.png)
+<center>[그림]iOS IMAP 설정 예시</center> 
 A와 B영역은 [수동 설정](./service-guide/#manual-setup)의 [그림]Dooray! 메일 IMAP 설정 정보를 참고해주세요.  
 
 
