@@ -291,7 +291,7 @@ IMAP 설정이 완료되었다면 아래와 같이 세팅할 수 있습니다.
 - 일반 기업 : https://autoconfig.dooray.com/
 - 공공 기관 : https://autoconfig.gov-dooray.com/
 ![](http://static.toastoven.net/prod_dooray_mail/Mail_21_ko.png)
-<center>[그림]iOS IMAP 설정 예시</center> 
+<center>[그림]iOS IMAP 설정 예시</center>  
 A와 B영역은 [수동 설정](./service-guide/#manual-setup)의 [그림]Dooray! 메일 IMAP 설정 정보를 참고해주세요.  
 
 
