@@ -142,7 +142,7 @@ IMAP, SMTP설정은 [설정> 메일> IMAP] 메뉴를 선택해 설정 안내를 
     - 2013(Windows)
     - 2010(Windows)
 - Windows10 Mail
-- Mac Mail
+- Apple Mai
 - IPhone Mail
 - IPad Mail
 - Android Galaxy Mail
