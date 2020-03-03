@@ -287,18 +287,17 @@ IMAP 설정이 완료되었다면 아래와 같이 세팅할 수 있습니다.
 - 일반 기업 : https://autoconfig.dooray.com/
 - 공공 기관 : https://autoconfig.gov-dooray.com/
 ![](http://static.toastoven.net/prod_dooray_mail/Mail_21_ko.png)
-A와 B영역은 Dooray! 웹 서비스 상단 우측의 [설정 > 메일 > IMAP > 로그인/비밀번호 항목] 을 참고해주세요.  
-수동 설정의 [그림]Dooray! 메일 IMAP 설정 정보 
+A와 B영역은 [수동 설정](./getting-started-android)의 [그림]Dooray! 메일 IMAP 설정 정보 참고해주세요.  
   
 ##### Microsoft Outlook
-- 파일 > 계정 추가를 선택합니다.
-- 메일 주소와 패스워드만 입력하면 자동으로 설정이 됩니다.
+1. 파일 > 계정 추가를 선택합니다.
+2. 메일 주소와 패스워드만 입력하면 자동으로 설정이 됩니다.
 
 ##### Microsoft Outlook 2019
-- 파일 > 계정 추가 를 선택합니다.
-- 전자 메일 주소를 입력하고 연결을 클릭합니다.
-- 문제가 발생했습니다. 팝업창에서 계정 유형 변경을 클릭합니다.
-- IMAP 을 선택합니다.
+1. 파일 > 계정 추가 를 선택합니다.
+2. 전자 메일 주소를 입력하고 연결을 클릭합니다.
+3. 문제가 발생했습니다. 팝업창에서 계정 유형 변경을 클릭합니다.
+4. IMAP 을 선택합니다.
 
 ### 수동 설정
 
