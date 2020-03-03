@@ -137,10 +137,10 @@ IMAP, SMTP설정은 [설정> 메일> IMAP] 메뉴를 선택해 설정 안내를 
 #### IMAP 지원 클라이언트
 - Thunder Bird
 - Outlook
-   - 2016(MacOs)
-   - 2016(Windows)
-   - 2013(Windows)
-   - 2010(Windows)
+    - 2016(MacOS X)
+    - 2016(Windows)
+    - 2013(Windows)
+    - 2010(Windows)
 - Windows10 Mail
 - Mac Mail
 - IPhone Mail
@@ -199,6 +199,7 @@ IMAP은 메일 서버에 접속해 메일을 읽기 위한 프로토콜로 여�
 
 생성한 메일 그룹 주소로 메일이 수신되는 경우, 그룹에 포함된 멤버들은 숨은 참조로 메일을 함께 받게 됩니다. 해당 메일에 수신자가 회신하면, 해당 그룹의 멤버들이 함께 메일을 받게 됩니다.
 
+<span id="integrate-custom-domain"></span>
 ### 자체 메일 주소 연동하기 (MX레코드 설정)
 Dooray!에서 제공하는 메일 주소 (도메인.dooray.com)가 아닌, 자체 메일 주소를 사용하고자 할 경우 자체 도메인을 추가할 수 있습니다. 
 
@@ -251,8 +252,63 @@ example.com    text = "v=spf1 include:_spf.dooray.com ~all"
 - dig txt 도메인명
 - 인터넷에서 DNS 정보 조회 서비스 제공 사이트 
 
-### IMAP을 이용한 Outlook 메일 이전 가이드
-Outlook에 설정한 기존 메일을 내보내기 한 후, Dooray! 메일 계정으로 메일 가져오기를 합니다.   
+<span id="auto-configuration-servers"></span>
+### 자동 설정 서버 사용 안내
+DNS 관리자가 SRV 레코드를 설정하여 주요 메일 클라이언트(Outlook, iPhone/iPad Mail, Mac Mail)의 IMAP/SMTP 설정을 간편하게 할 수 있습니다. 
+
+#### DNS SRV 레코드 설정
+MX레코드를 설정한 DNS 서버에 다음의 SRV 레코드를 설정합니다.
+
+- 일반 기업
+```bash
+_autodiscover._tcp      IN      SRV    0 0 443 autoconfig.dooray.com
+```
+
+- 공공 기관
+```bash
+_autodiscover._tcp      IN      SRV    0 0 443 autoconfig.gov-dooray.com
+```
+
+정상적으로 설정되었다면 다음의 nslookup 명령어로 확인할 수 있습니다.
+```bash
+$ nslookup -type=srv _autodiscover._tcp.nhn.com
+Server:		X.X.X.X
+Address:	X.X.X.X#X
+
+Non-authoritative answer:
+_autodiscover._tcp.nhn.com	service = 0 0 443 autoconfig.dooray.com.
+
+Authoritative answers can be found from:
+```
+
+
+#### 사용자 설정
+IMAP 설정이 완료되었다면 아래와 같이 세팅할 수 있습니다. 
+
+
+##### MacOS X, iOS
+기기에서 다음의 링크로 접속하고 이메일을 입력 후 파일을 다운로드 받습니다.
+- 일반 기업 : https://autoconfig.dooray.com/
+- 공공 기관 : https://autoconfig.gov-dooray.com/
+![](http://static.toastoven.net/prod_dooray_mail/Mail_21_ko.png)
+<center>[그림]iOS IMAP 설정 예시</center>  
+
+A와 B영역은 [수동 설정](./service-guide/#manual-setup)의 [그림]Dooray! 메일 IMAP 설정 정보를 참고해주세요.  
+
+
+##### Microsoft Outlook
+1. 파일 > 계정 추가를 선택합니다.
+2. 메일 주소와 패스워드만 입력하면 자동으로 설정이 됩니다.
+
+
+##### Microsoft Outlook 2019
+1. 파일 > 계정 추가 를 선택합니다.
+2. 전자 메일 주소를 입력하고 연결을 클릭합니다.
+3. 문제가 발생했습니다. 팝업창에서 계정 유형 변경을 클릭합니다.
+4. IMAP 을 선택합니다.
+
+<span id="manual-setup"></span>
+### 수동 설정
 
 #### Outlook에서 Dooray! IMAP 설정 추가  
 Outlook 파일 메뉴를 선택해 계정 정보에서 계정 추가 버튼을 클릭합니다.   
@@ -294,6 +350,9 @@ Outlook 파일 메뉴를 선택해 계정 정보에서 계정 추가 버튼을 �
 
 POP 및 IMAP 계정 설정창 우측 상단에 계정 설정 테스트를 클릭하여 테스트 진행합니다. 
 받는 메일 서버에 로그온, 테스트 전자 메일 메시지 보내기를 해서 완료되면 IMAP 설정은 완료된 것입니다.  
+
+### IMAP을 이용한 Outlook 메일 이전 가이드
+Outlook에 설정한 기존 메일을 내보내기 한 후, Dooray! 메일 계정으로 메일 가져오기를 합니다.   
 
 #### Outlook에 설정한 기존 메일 내보내기  
 Outlook 에서 '>' 메뉴를 클릭해보면, Dooray! 메일 계정이 추가된 것을 확인할 수 있습니다. 
