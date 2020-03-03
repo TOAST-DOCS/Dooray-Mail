@@ -288,7 +288,7 @@ IMAP 설정이 완료되었다면 아래와 같이 세팅할 수 있습니다.
 - 공공 기관 : https://autoconfig.gov-dooray.com/
 ![](http://static.toastoven.net/prod_dooray_mail/Mail_21_ko.png)
 A와 B영역은 Dooray! 웹 서비스 상단 우측의 [설정 > 메일 > IMAP > 로그인/비밀번호 항목] 을 참고해주세요.  
-아래 수동 설정의 [그림]Dooray! 메일 IMAP 설정 정보 확인 참고. 
+수동 설정의 [그림]Dooray! 메일 IMAP 설정 정보 
   
 ##### Microsoft Outlook
 - 파일 > 계정 추가를 선택합니다.
