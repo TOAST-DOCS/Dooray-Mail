@@ -257,11 +257,15 @@ DNS 관리자가 SRV 레코드를 설정하여 주요 메일 클라이언트(Out
 #### DNS SRV 레코드 설정
 MX레코드를 설정한 DNS 서버에 다음의 SRV 레코드를 설정합니다.
 
-일반 기업
+- 일반 기업
+```bash
 _autodiscover._tcp      IN      SRV    0 0 443 autoconfig.dooray.com
+```
 
-공공 기관
+- 공공 기관
+```bash
 _autodiscover._tcp      IN      SRV    0 0 443 autoconfig.gov-dooray.com
+```
 
 정상적으로 설정되었다면 다음의 nslookup 명령어로 확인할 수 있습니다.
 $ nslookup -type=srv _autodiscover._tcp.nhn.com
