@@ -287,7 +287,7 @@ IMAP 설정이 완료되었다면 아래와 같이 세팅할 수 있습니다.
 - 일반 기업 : https://autoconfig.dooray.com/
 - 공공 기관 : https://autoconfig.gov-dooray.com/
 ![](http://static.toastoven.net/prod_dooray_mail/Mail_21_ko.png)
-A와 B영역은 [수동 설정](./getting-started-android)의 [그림]Dooray! 메일 IMAP 설정 정보 참고해주세요.  
+A와 B영역은 [수동 설정](./getting-started-android)의 [그림]Dooray! 메일 IMAP 설정 정보를 참고해주세요.  
   
 ##### Microsoft Outlook
 1. 파일 > 계정 추가를 선택합니다.
