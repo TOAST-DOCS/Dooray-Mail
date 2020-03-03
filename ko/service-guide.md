@@ -279,8 +279,9 @@ _autodiscover._tcp.nhn.com	service = 0 0 443 autoconfig.dooray.com.
 Authoritative answers can be found from:
 ```
 
-#### 사용자 설정
+### 사용자 설정
 IMAP 설정이 완료되었다면 아래와 같이 세팅할 수 있습니다. 
+
 
 ##### MacOS X, IOS
 기기에서 다음의 링크로 접속하고 이메일을 입력 후 파일을 다운로드 받습니다.
@@ -288,10 +289,12 @@ IMAP 설정이 완료되었다면 아래와 같이 세팅할 수 있습니다.
 - 공공 기관 : https://autoconfig.gov-dooray.com/
 ![](http://static.toastoven.net/prod_dooray_mail/Mail_21_ko.png)
 A와 B영역은 [수동 설정](./service-guide/#manual-setup)의 [그림]Dooray! 메일 IMAP 설정 정보를 참고해주세요.  
-  
+
+
 ##### Microsoft Outlook
 1. 파일 > 계정 추가를 선택합니다.
 2. 메일 주소와 패스워드만 입력하면 자동으로 설정이 됩니다.
+
 
 ##### Microsoft Outlook 2019
 1. 파일 > 계정 추가 를 선택합니다.
