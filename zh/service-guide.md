@@ -102,17 +102,17 @@ IMAP, SMTP설정은 [설정> 메일> IMAP] 메뉴를 선택해 설정 안내를 
 -	아이디: Dooray! 메일 주소 (도메인 포함) 
 -	비밀번호: IMAP 전용 암호는 [설정> 메일> IMAP]에서 확인하고 복사해서 사용해야 합니다. (암호화 키 발급)
 
-#### IMAP 지원 클라이언트
+#### IMAP supporting client
 - Thunder Bird
 - Outlook
-   - 2016(MacOs)
+   - 2016(macOS)
    - 2016(Windows)
    - 2013(Windows)
    - 2010(Windows)
 - Windows10 Mail
-- Mac Mail
-- IPhone Mail
-- IPad Mail
+- Apple Mail
+- iOS Mail
+- iPadOS Mail
 - Android Galaxy Mail
 - Gmail Client App
 
