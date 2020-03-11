@@ -137,14 +137,14 @@ IMAP, SMTP설정은 [설정> 메일> IMAP] 메뉴를 선택해 설정 안내를 
 #### IMAP 지원 클라이언트
 - Thunder Bird
 - Outlook
-    - 2016(macOS X)
+    - 2016(macOS)
     - 2016(Windows)
     - 2013(Windows)
     - 2010(Windows)
 - Windows10 Mail
 - Apple Mail
-- IPhone Mail
-- IPad Mail
+- iOS Mail
+- iPadOS Mail
 - Android Galaxy Mail
 - Gmail Client App
 
@@ -254,7 +254,7 @@ example.com    text = "v=spf1 include:_spf.dooray.com ~all"
 
 <span id="auto-configuration-servers"></span>
 ### 자동 설정 서버 사용 안내 (Auto configuration)
-DNS 관리자가 SRV 레코드를 설정하여 주요 메일 클라이언트(Outlook, iPhone/iPad Mail, Mac Mail)의 IMAP/SMTP 설정을 간편하게 할 수 있습니다. 
+DNS 관리자가 SRV 레코드를 설정하여 주요 메일 클라이언트(Outlook/iOS/iPadOS Mail/Apple Mail)의 IMAP/SMTP 설정을 간편하게 할 수 있습니다. 
 
 #### DNS SRV 레코드 설정
 MX레코드를 설정한 DNS 서버에 다음의 SRV 레코드를 설정합니다.
@@ -286,7 +286,7 @@ Authoritative answers can be found from:
 IMAP 설정이 완료되었다면 아래와 같이 세팅할 수 있습니다. 
 
 
-##### macOS X, iOS
+##### macOS, iOS
 기기에서 다음의 링크로 접속하고 이메일을 입력 후 파일을 다운로드 받습니다.
 - 일반 기업 : https://autoconfig.dooray.com/
 - 공공 기관 : https://autoconfig.gov-dooray.com/

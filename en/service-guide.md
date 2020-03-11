@@ -105,14 +105,14 @@ To set IMAP and SMTP, go to [Settings > Mail > IMAP] menu and refer to the setti
 #### IMAP supporting client
 - Thunder Bird
 - Outlook
-   - 2016(MacOs)
+   - 2016(macOS)
    - 2016(Windows)
    - 2013(Windows)
    - 2010(Windows)
 - Windows10 Mail
-- Mac Mail
-- IPhone Mail
-- IPad Mail
+- Apple Mail
+- iOS Mail
+- iPadOS Mail
 - Android Galaxy Mail
 - Gmail Client App
 
