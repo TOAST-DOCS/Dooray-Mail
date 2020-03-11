@@ -148,16 +148,16 @@ IMAP、SMTP設定は「設定 > メール > IMAP」メニューから設定ガ�
 - パスワード：IMAP専用パスワードは、「設定 > メール > IMAP」で確認していただき、コピーしてご利用ください。(暗号化キー発行)
 
 #### IMAPサポートクライアント
-- Thunderbird
+- Thunder Bird
 - Outlook
-- 2016(MacOs)
-- 2016(Windows)
-- 2013(Windows)
-- 2010(Windows)
+   - 2016(macOS)
+   - 2016(Windows)
+   - 2013(Windows)
+   - 2010(Windows)
 - Windows10 Mail
-- Mac Mail
-- iPhone Mail
-- iPad Mail
+- Apple Mail
+- iOS Mail
+- iPadOS Mail
 - Android Galaxy Mail
 - Gmail Client App
 
