@@ -254,7 +254,7 @@ example.com    text = "v=spf1 include:_spf.dooray.com ~all"
 
 <span id="auto-configuration-servers"></span>
 ### 자동 설정 서버 사용 안내 (Auto configuration)
-DNS 관리자가 SRV 레코드를 설정하여 주요 메일 클라이언트(Outlook, iOS/iPadOS Mail/Apple Mail)의 IMAP/SMTP 설정을 간편하게 할 수 있습니다. 
+DNS 관리자가 SRV 레코드를 설정하여 주요 메일 클라이언트(Outlook/iOS/iPadOS Mail/Apple Mail)의 IMAP/SMTP 설정을 간편하게 할 수 있습니다. 
 
 #### DNS SRV 레코드 설정
 MX레코드를 설정한 DNS 서버에 다음의 SRV 레코드를 설정합니다.
