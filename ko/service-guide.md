@@ -218,13 +218,13 @@ Dooray!에서 제공하는 메일 주소 (도메인.dooray.com)가 아닌, 자�
 
 #### MX레코드 및 SPF레코드 설정 안내 
 1단계: 도메인을 구매 / 관리하는 사이트에 접속하여 DNS 설정에서 아래 정보로 MX레코드를 변경합니다.
-- MX레코드 (메일 서버 주소: 접속 도메인 dooray.com / gov-dooray.com 에 따라 설정값이 달라집니다.)
+- MX레코드 (메일 서버 주소) : 접속 도메인(dooray.com / gov-dooray.com)에 따라 설정값이 달라집니다.
   - 일반 클라우드 사용 조직 : aspmx1.dooray.com. (com 뒤에 .을 붙여야 합니다.) 
   - 공공 클라우드 사용 기관 : aspmx1.gov-dooray.com. (com 뒤에 .을 붙여야 합니다.)
 - 우선순위: 1
 
 2단계: Dooray로 메일 발송, 수신 시 스팸으로 분류되지 않도록 SPF 레코드 등록이 필요합니다.
-- SPF 레코드 (접속 도메인 dooray.com / gov-dooray.com 에 따라 설정값이 달라집니다.)
+- SPF 레코드 : 접속 도메인(dooray.com / gov-dooray.com)에 따라 설정값이 달라집니다.
   - 일반 클라우드 사용 조직 : _spf.dooray.com
   - 공공 클라우드 사용 기관 : _spf.gov-dooray.com
 
