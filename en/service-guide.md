@@ -203,10 +203,10 @@ After exporting your mails from Outlook, import the mails to Dooray! Mail accoun
 #### Add Dooray! IMAP Settings in Outlook  
 Select the Outlook Files menu and click the Add Account button on Account Info.   
 
-![Outlook01](http://static.toastoven.net/prod_dooray_mail/01_mail_outlook01.png)
+![Outlook01](http://static.toastoven.net/prod_dooray_mail/01_mail_outlook01_en.png)
 <center>[Figure]Selecting File menu in Outlook mail</center>            
 
-![Outlook02](http://static.toastoven.net/prod_dooray_mail/02_mail_outlook_addaccout2.png)
+![Outlook02](http://static.toastoven.net/prod_dooray_mail/02_mail_outlook_addaccout2_en.png)
 <center>[Figure ]Adding an Outlook mail account</center>        
 
 - Select 'Manual setup or additional server type'. 
@@ -215,27 +215,27 @@ Select the Outlook Files menu and click the Add Account button on Account Info.
 - Dooray! Go to Main Settings > Mail > IMAP Setup Assistant and enter the ID and password in the Outlook Account Setup.
 - Caution: The password of Outlook IMAP logon information must be entered by copying the password of Dooray! IMAP setup. 
 	
-![Outlook03](http://static.toastoven.net/prod_dooray_mail/03_mail_outlook_imap2.png)
+![Outlook03](http://static.toastoven.net/prod_dooray_mail/03_mail_outlook_imap2_en.png)
 <center>[Figure ]Outlook mail account settings</center>        
 
-![Outlook04](http://static.toastoven.net/prod_dooray_mail/04_mail_dooray_imap.png)
+![Outlook04](http://static.toastoven.net/prod_dooray_mail/04_mail_dooray_imap_en.png)
 <center>[Figure]Checking IMAP Settings Info of Dooray! Mail</center>        
 
 Click the More Settings button at the bottom of the Outlook POP and IMAP Account Settings window. 
 
-![Outlook05](http://static.toastoven.net/prod_dooray_mail/05_mail_outlook_imap_etc.png)
+![Outlook05](http://static.toastoven.net/prod_dooray_mail/05_mail_outlook_imap_etc_en.png)
 <center>[Figure ]More Settings in Outlook Mail</center>       
 
 - Outgoing Server tab: Your outgoing server (SMTP) requires authentication.  
 
-![Outlook06](http://static.toastoven.net/prod_dooray_mail/06_mail_outlook_smtp.png)
+![Outlook06](http://static.toastoven.net/prod_dooray_mail/06_mail_outlook_smtp_en.png)
 <center>[Figure]Outgoing Server Settings</center>       
 
 - Click the Advanced tab to enter the port numbers of incoming and outgoing mail servers.  
   - IMAP: 993, SMTP: 465
   - The encrypted connection method: SSL
 
-![Outlook07](http://static.toastoven.net/prod_dooray_mail/07_mail_port.png)
+![Outlook07](http://static.toastoven.net/prod_dooray_mail/07_mail_port_en.png)
 <center>[Figure]Advanced</center>    
 
 Click the Test Account Settings button at the top right of POP and IMAP Account Settings window to proceed. 
@@ -244,13 +244,13 @@ If you are able to successfully log on to the incoming mail server and send an e
 #### Export existing mails from Outlook  
 In Outlook, click the '>' menu and you can see that Dooray! Mail account has been added. 
 
-![Outlook08](http://static.toastoven.net/prod_dooray_mail/08_mail_more.png)
+![Outlook08](http://static.toastoven.net/prod_dooray_mail/08_mail_more_en.png)
 <center>[Figure]Checking Added Outlook Account </center>   
 
 In Outlook, select File menu > Open & Export > Import/Export menu.
 Export mails from Outlook and then import the mails to Dooray!.
 
-![Outlook09](http://static.toastoven.net/prod_dooray_mail/09_mail_import_export.png)
+![Outlook09](http://static.toastoven.net/prod_dooray_mail/09_mail_import_export_en.png)
 <center>[Figure]Outlook Import/Export Wizard </center>   
 
 - Format of file to create: Outlook data file (.pst)
@@ -273,43 +273,50 @@ After this, mail import is completed.
 #### iPhone:
 
 1. First, click [Mail > imap] in Dooray! Settings and check the Incoming Server, Outgoing Server, ID, and Password.
-![](http://static.toastoven.net/prod_dooray_mail/phone1.png)
+![](http://static.toastoven.net/prod_dooray_mail/phone1_en.png)
 
 2. Hold the device and proceed as below.
 
 3. On Settings of the device, select [Account and Password].
 
 4. Select the [Add Account] button at the bottom of the account list.
-![](http://static.toastoven.net/prod_dooray_mail/phone2.png)
+
+![](http://static.toastoven.net/prod_dooray_mail/phone2_en.png)
 
 5. In the Add Account screen, select [Other].
-![](http://static.toastoven.net/prod_dooray_mail/phone3.png)
+
+![](http://static.toastoven.net/prod_dooray_mail/phone3_en.png)
 
 6. Add the Mail account.
-![](http://static.toastoven.net/prod_dooray_mail/phone4.png)
+
+![](http://static.toastoven.net/prod_dooray_mail/phone4_en.png)
 
 7. Input the ID/Password/Incoming Server/Outgoing Server you have checked in Dooray! Settings in the order shown here.
 (Dooray! The password should not be the one you use for login to the service but the one you have checked in Dooray! Settings.)
-![](http://static.toastoven.net/prod_dooray_mail/phone5.png)
+
+![](http://static.toastoven.net/prod_dooray_mail/phone5_en.png)
 
 #### Android
 
 1. First, click [Mail > imap] in Dooray! Settings and check the Incoming Server, Outgoing Server, ID, and Password.
-![](http://static.toastoven.net/prod_dooray_mail/phone6.png)
+![](http://static.toastoven.net/prod_dooray_mail/phone6_en.png)
 
 2. Hold the device and proceed as below.
 
 3. In Settings of the device, select [User and Account].
 
 4. Select [Add Account].
-![](http://static.toastoven.net/prod_dooray_mail/phone7.png)
+
+![](http://static.toastoven.net/prod_dooray_mail/phone7_en.png)
 
 5. Select Personal (IMAP).
-![](http://static.toastoven.net/prod_dooray_mail/phone8.png)
+
+![](http://static.toastoven.net/prod_dooray_mail/phone8_en.png)
 
 
 6. Enter the ID/Password/Incoming Server/Outgoing one by one.
 (Dooray! The password should not be the one you use for login to the service but the one you have checked in Dooray! Settings.)
-![](http://static.toastoven.net/prod_dooray_mail/phone9.png)
+
+![](http://static.toastoven.net/prod_dooray_mail/phone9_en.png)
 
 How to set may vary depending on your Android device model.
