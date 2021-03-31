@@ -280,16 +280,20 @@ After this, mail import is completed.
 3. On Settings of the device, select [Account and Password].
 
 4. Select the [Add Account] button at the bottom of the account list.
+
 ![](http://static.toastoven.net/prod_dooray_mail/phone2_en.png)
 
 5. In the Add Account screen, select [Other].
+
 ![](http://static.toastoven.net/prod_dooray_mail/phone3_en.png)
 
 6. Add the Mail account.
+
 ![](http://static.toastoven.net/prod_dooray_mail/phone4_en.png)
 
 7. Input the ID/Password/Incoming Server/Outgoing Server you have checked in Dooray! Settings in the order shown here.
 (Dooray! The password should not be the one you use for login to the service but the one you have checked in Dooray! Settings.)
+
 ![](http://static.toastoven.net/prod_dooray_mail/phone5_en.png)
 
 #### Android
@@ -302,14 +306,17 @@ After this, mail import is completed.
 3. In Settings of the device, select [User and Account].
 
 4. Select [Add Account].
+
 ![](http://static.toastoven.net/prod_dooray_mail/phone7_en.png)
 
 5. Select Personal (IMAP).
+
 ![](http://static.toastoven.net/prod_dooray_mail/phone8_en.png)
 
 
 6. Enter the ID/Password/Incoming Server/Outgoing one by one.
 (Dooray! The password should not be the one you use for login to the service but the one you have checked in Dooray! Settings.)
+
 ![](http://static.toastoven.net/prod_dooray_mail/phone9_en.png)
 
 How to set may vary depending on your Android device model.
