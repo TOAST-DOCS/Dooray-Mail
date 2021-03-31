@@ -203,10 +203,10 @@ After exporting your mails from Outlook, import the mails to Dooray! Mail accoun
 #### Add Dooray! IMAP Settings in Outlook  
 Select the Outlook Files menu and click the Add Account button on Account Info.   
 
-![Outlook01](http://static.toastoven.net/prod_dooray_mail/01_mail_outlook01_en.png)
+![Outlook01](http://static.toastoven.net/prod_dooray_mail/01_mail_outlook01.png)
 <center>[Figure]Selecting File menu in Outlook mail</center>            
 
-![Outlook02](http://static.toastoven.net/prod_dooray_mail/02_mail_outlook_addaccout2_en.png)
+![Outlook02](http://static.toastoven.net/prod_dooray_mail/02_mail_outlook_addaccout2.png)
 <center>[Figure ]Adding an Outlook mail account</center>        
 
 - Select 'Manual setup or additional server type'. 
