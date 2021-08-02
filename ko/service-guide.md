@@ -128,6 +128,7 @@ Dooray! 서비스와 관련된 설정은 Dooray! 메인 우측 상단 사용자 
 
 #### IMAP/ SMTP(Simple Mail Transfer Protocol)설정
 Dooray! 메일 수신은 POP3 방식이 아닌 IMAP을 지원하고 있습니다. Dooray! 메일을 사용하기 위해서는 IMAP 설정과 인터넷 상에서 메일을 전송할 때 쓰이는 표준 프로토콜인 SMTP 설정이 필요합니다. 
+
 - IMAP 폴더에서 조회할 수 있는 메일은 5,000건으로 제한됩니다.
 - 공공기관의 경우 IMAP을 지원하지 않습니다. 
 
@@ -362,6 +363,7 @@ POP 및 IMAP 계정 설정창 우측 상단에 계정 설정 테스트를 클릭
 
 ### IMAP을 이용한 Outlook 메일 이전 가이드
 Outlook에 설정한 기존 메일을 내보내기 한 후, Dooray! 메일 계정으로 메일 가져오기를 합니다.   
+
 - 공공기관의 경우 IMAP을 지원하지 않습니다.
 
 #### Outlook에 설정한 기존 메일 내보내기  
