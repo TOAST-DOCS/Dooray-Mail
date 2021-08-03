@@ -294,6 +294,7 @@ Authoritative answers can be found from:
 
 #### 사용자 설정
 IMAP 설정이 완료되었다면 아래와 같이 세팅할 수 있습니다. 
+
 - 공공기관의 경우 IMAP을 지원하지 않습니다.
 
 ##### macOS, iOS
