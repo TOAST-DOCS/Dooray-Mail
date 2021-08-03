@@ -425,26 +425,6 @@ Outlook 에서 파일 메뉴 선택 > 열기 및 내보내기 > 가져오기/내
 
 #### 안드로이드
 
-1. 먼저 Dooray!의 설정 메뉴에서 [메일> imap]을 눌러 수신 서버, 발신 서버, 아이디, 비밀번호를 확인하세요.
-![](http://static.toastoven.net/prod_dooray_mail/phone6.png)
-
-2. 그 후 단말기를 들고 아래와 같이 진행해 주세요.
-
-3. 단말기의 설정에서 [계정 및 암호]를 선택합니다.
-
-4. 계정 목록의 하단에 [계정 추가] 버튼을 선택합니다.
-![](http://static.toastoven.net/prod_dooray_mail/phone7.png)
-
-5. 계정 추가에서 [기타]를 선택합니다.
-![](http://static.toastoven.net/prod_dooray_mail/phone8.png)
-
-6. Mail 계정 추가
-
-7. Dooray!의 설정에서 확인한 아이디 / 비밀번호 / 수신서버 / 발신서버를 차례대로 넣어줍니다.
-![](http://static.toastoven.net/prod_dooray_mail/phone9.png)
-
-#### 안드로이드
-
 1. 먼저 Dooray!의 설정 메뉴에서 [메일> imap]을 눌러 수신 서버, 발신 서버, 아이디, 비밀번호를 확인하세요.
 
 ![](http://static.toastoven.net/prod_dooray_mail/phone1.png)
