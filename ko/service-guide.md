@@ -294,12 +294,11 @@ Authoritative answers can be found from:
 
 #### 사용자 설정
 IMAP 설정이 완료되었다면 아래와 같이 세팅할 수 있습니다. 
-
+- 공공기관의 경우 IMAP을 지원하지 않습니다.
 
 ##### macOS, iOS
 기기에서 다음의 링크로 접속하고 이메일을 입력 후 파일을 다운로드 받습니다.
 - 일반 기업 : https://autoconfig.dooray.com/
-- 공공 기관 : https://autoconfig.gov-dooray.com/
 ![](http://static.toastoven.net/prod_dooray_mail/Mail_21_ko.png)
 <center>[그림]iOS IMAP 설정 예시</center>  
 
@@ -320,7 +319,9 @@ A와 B영역은 [수동 설정](./service-guide/#manual-setup)의 [그림]Dooray
 <span id="manual-setup"></span>
 ### 수동 설정
 
-#### Outlook에서 Dooray! IMAP 설정 추가  
+#### Outlook에서 Dooray! IMAP 설정 추가 
+- 공공기관의 경우 IMAP을 지원하지 않습니다.
+
 Outlook 파일 메뉴를 선택해 계정 정보에서 계정 추가 버튼을 클릭합니다.   
 
 ![Outlook01](http://static.toastoven.net/prod_dooray_mail/01_mail_outlook01.png)
@@ -362,9 +363,8 @@ POP 및 IMAP 계정 설정창 우측 상단에 계정 설정 테스트를 클릭
 받는 메일 서버에 로그온, 테스트 전자 메일 메시지 보내기를 해서 완료되면 IMAP 설정은 완료된 것입니다.  
 
 ### IMAP을 이용한 Outlook 메일 이전 가이드
-Outlook에 설정한 기존 메일을 내보내기 한 후, Dooray! 메일 계정으로 메일 가져오기를 합니다.   
-
 - 공공기관의 경우 IMAP을 지원하지 않습니다.
+Outlook에 설정한 기존 메일을 내보내기 한 후, Dooray! 메일 계정으로 메일 가져오기를 합니다.   
 
 #### Outlook에 설정한 기존 메일 내보내기  
 Outlook 에서 '>' 메뉴를 클릭해보면, Dooray! 메일 계정이 추가된 것을 확인할 수 있습니다. 
@@ -394,6 +394,7 @@ Outlook 에서 파일 메뉴 선택 > 열기 및 내보내기 > 가져오기/내
 이 과정을 거치면 메일 가져오기가 완료됩니다.
 
 ### 스마트폰의 기본 메일로 Dooray! 메일을 연동하기
+- 공공기관의 경우 IMAP을 지원하지 않습니다.
 
 #### 아이폰
 
