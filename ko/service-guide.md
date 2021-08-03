@@ -364,6 +364,7 @@ POP 및 IMAP 계정 설정창 우측 상단에 계정 설정 테스트를 클릭
 
 ### IMAP을 이용한 Outlook 메일 이전 가이드
 - 공공기관의 경우 IMAP을 지원하지 않습니다.
+
 Outlook에 설정한 기존 메일을 내보내기 한 후, Dooray! 메일 계정으로 메일 가져오기를 합니다.   
 
 #### Outlook에 설정한 기존 메일 내보내기  
@@ -424,26 +425,6 @@ Outlook 에서 파일 메뉴 선택 > 열기 및 내보내기 > 가져오기/내
 
 #### 안드로이드
 
-1. 먼저 Dooray!의 설정 메뉴에서 [메일> imap]을 눌러 수신 서버, 발신 서버, 아이디, 비밀번호를 확인하세요.
-![](http://static.toastoven.net/prod_dooray_mail/phone6.png)
-
-2. 그 후 단말기를 들고 아래와 같이 진행해 주세요.
-
-3. 단말기의 설정에서 [계정 및 암호]를 선택합니다.
-
-4. 계정 목록의 하단에 [계정 추가] 버튼을 선택합니다.
-![](http://static.toastoven.net/prod_dooray_mail/phone7.png)
-
-5. 계정 추가에서 [기타]를 선택합니다.
-![](http://static.toastoven.net/prod_dooray_mail/phone8.png)
-
-6. Mail 계정 추가
-
-7. Dooray!의 설정에서 확인한 아이디 / 비밀번호 / 수신서버 / 발신서버를 차례대로 넣어줍니다.
-![](http://static.toastoven.net/prod_dooray_mail/phone9.png)
-
-#### 안드로이드
-
 1. 먼저 Dooray!의 설정 메뉴에서 [메일> imap]을 눌러 수신 서버, 발신 서버, 아이디, 비밀번호를 확인하세요.
 
 ![](http://static.toastoven.net/prod_dooray_mail/phone1.png)
@@ -458,10 +439,10 @@ Outlook 에서 파일 메뉴 선택 > 열기 및 내보내기 > 가져오기/내
 
 5. 개인용(IMAP)을 선택합니다.
 
-![](http://static.toastoven.net/prod_dooray_mail/phone7.png)
+![](http://static.toastoven.net/prod_dooray_mail/phone8.png)
 
 6. 이메일 / 비밀번호 / 수신 서버 / 발신 서버를 차례대로 입력합니다.
 
-![](http://static.toastoven.net/prod_dooray_mail/phone7.png)
+![](http://static.toastoven.net/prod_dooray_mail/phone9.png)
 
 안드로이드 단말기는 기기에 따라 설정 방법에 차이가 있을 수 있습니다.
