@@ -320,7 +320,10 @@ A와 B영역은 [수동 설정](./service-guide/#manual-setup)의 [그림]Dooray
 <span id="manual-setup"></span>
 ### 수동 설정
 
-#### Outlook에서 Dooray! IMAP 설정 추가  
+#### Outlook에서 Dooray! IMAP 설정 추가 
+
+- 공공기관의 경우 IMAP을 지원하지 않습니다.
+
 Outlook 파일 메뉴를 선택해 계정 정보에서 계정 추가 버튼을 클릭합니다.   
 
 ![Outlook01](http://static.toastoven.net/prod_dooray_mail/01_mail_outlook01.png)
@@ -394,6 +397,8 @@ Outlook 에서 파일 메뉴 선택 > 열기 및 내보내기 > 가져오기/내
 이 과정을 거치면 메일 가져오기가 완료됩니다.
 
 ### 스마트폰의 기본 메일로 Dooray! 메일을 연동하기
+
+- 공공기관의 경우 IMAP을 지원하지 않습니다.
 
 #### 아이폰
 
